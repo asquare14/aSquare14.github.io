@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <p>I'm an undergrad at IIIT Bangalore pursuing Electronics and Communication Engineering. I am passioante about electronics and all things tech. I also love Open Source and can often be found surfing github for cool projects. Collaborating with people and making new things makes me happy !</p>
-<p> In my free time, I read, travel and workout. I write on [Quora](https://www.quora.com/profile/Atibhi-Agrawal) and [Medium](https://medium.com/@atibhi.a)</p>
+<p> In my free time, I read, travel and workout. I write on [https://www.quora.com/profile/Atibhi-Agrawal] and [Medium](https://medium.com/@atibhi.a)</p>
 
 <h2>Skills</h2>
 
