@@ -4,20 +4,6 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <p>I'm an undergrad at IIIT Bangalore pursuing Electronics and Communication Engineering. I am interested in electronics,low frequency noise measurements and all things tech. </p>
-<p>I am passionate about Open Source and can often be found surfing github for cool projects. Collaborating with people and making new things makes me happy ! I am also involved in communities that promote diversity in tech .</p>
-<p> In my free time, I read, travel and workout. I also write on Quora and Medium</p>
-
-<h2>Skills</h2>
-
-<ul class="skill-list">
-	<li>Ruby On Rails</li>
-	<li>React JS</li>
-	<li>HTML,CSS and Bootstrap</li>
-	<li>Python</li>
-	<li>C,C++</li>
-	<li>Lab View</li>
-	<li>Arduino</li>
-	<li>Raspberry Pi</li>
-	<li>Git</li>
-	<li>Java</li>
-</ul>
+<p>I love FOSS and sometimes surf github more than instagram.Collaborating with people and making new things makes me happy ! I am also involved in communities that promote diversity in tech .</p>
+<p> In my free time, I love reading, listening to music and travelling. I sometimes like to imagine I'm the real life Monica Geller and start organizing things with vengeance. </p>
+<p> Presently working as a developer at RGSoC'18 with if-me.</p>
