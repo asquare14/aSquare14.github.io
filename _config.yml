@@ -53,18 +53,12 @@ medium: atibhiagrawal
 email: atibhi.a@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    atibhi:
+        name: Atibhi Agrawal
+        bio: A girl who loves coding and art 
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: /atibhi_a
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
