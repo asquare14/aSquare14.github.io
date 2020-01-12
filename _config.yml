@@ -1,6 +1,6 @@
 # main text of home
 name: Atibhi Agrawal
-bio: Open Source and Tech Enthusiast | ECE UG @IIITB_Official 💻| @RailsGirlsSoC ' 18 at @ifmeorg ✨| Leader at LeanIn Chapter IIIT-B 🌈 | WIT#GHCI'18 scholar
+bio: Open Source and Tech Enthusiast | Graduate Student @IIITB_Official 💻| Incoming SWE intern 2020 at Google India✨| @RailsGirlsSoC ' 18 at @ifmeorg ✨| Leader at LeanIn Chapter IIIT-B 🌈 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -34,7 +34,7 @@ disqus:
   #categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: /profile.php?id=100001061927041
+# facebook: /profile.php?id=100001061927041
 twitter: /atibhi_a
 # google: mygoogle
 # instagram: myinstagram
@@ -45,12 +45,12 @@ linkedin: atibhi-agrawal-267525149/
 github: aSquare14
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
-quora: Atibhi-Agrawal
+# quora: Atibhi-Agrawal
 # reddit: username
 medium: atibhiagrawal
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: Atibhi.Agrawal@iiitb.org
+email: atibhi.a@gmail.com
 
 authors:
     johndoe:
