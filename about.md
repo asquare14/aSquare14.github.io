@@ -4,11 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Namaste :pray: everyone !
-I am Atibhi Agrawal and if you're reading this you have stumbled upon my personal site on the World Wide Web. :earth_asia:
+Namaste everyone !
+I am Atibhi Agrawal and if you're reading this you have stumbled upon my personal site on the World Wide Web.
 
-I'm an Integrated Masters :mortar_board: student at International Institute of Information technology, Bengaluru. I am interested in software Eegineering(pretty broad I know !), distributed systems, open source and Natural Language Processing.
-I have done internships at [Hackerrank](https://www.hackerrank.com/) in 2019 and was a [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/blog/2018-07-30-introducing-team-rubies) in 2018. These internships helped me grow tremendously professionally as well as personally. They are a major reason why I want to pursue software engineering in the future. You can read more about my work and projects [here](http://linkedin.com/in/atibhi-agrawal-267525149/).
+I'm an Integrated Masters student at International Institute of Information technology, Bengaluru. I am interested in software engineering(pretty broad I know !), distributed systems, open source and Natural Language Processing.
+I have done internships at [Hackerrank](https://www.hackerrank.com/) in 2019 and was a [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/blog/2018-07-30-introducing-team-rubies) in 2018. These internships helped me grow professionally as well as personally. They are one of the major reason why I want to pursue software engineering in the future. You can read more about my work and projects [here](http://linkedin.com/in/atibhi-agrawal-267525149/).
 
 <!-- #### Causes I feel strongly about
 
@@ -16,6 +16,6 @@ I have done internships at [Hackerrank](https://www.hackerrank.com/) in 2019 and
 
 - __Women in Tech__ -  I also have a vision of having more underrepresented communities in tech and work strongly towards that. In the year 2018, there were only two females from my college to have ever taken part in any Open Source programs. I wanted to change that and started the Lean In Chapter IIITB. As the founder of this chapter, I have conducted various workshops for freshman and sophomore students. Workshops range from Hacktoberfest workshops to helping them get into open source programs. The best part is that in just a span of three months I was able to increase the number of girls from 2 to 10 ! Yes, this year 10 freshman girls have been selected for Girlscript Summer of Code.  -->
 
-In my free time I can often be found [reading :books:](https://www.goodreads.com/user/show/74108752-atibhi-agrawal) on my kindle, painting or encouraging girls to take up STEM careers. 
+In my free time I can often be found [reading](https://www.goodreads.com/user/show/74108752-atibhi-agrawal) on my kindle, painting or encouraging girls to take up STEM careers. 
 
 If you want to collaborate or have a cool idea to discuss drop me a mail at atibhi.a@gmail.com :) 

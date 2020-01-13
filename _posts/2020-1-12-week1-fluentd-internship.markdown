@@ -5,7 +5,6 @@ layout: post
 date: 2020-01-12 13:30
 tag:
 - fluentd
-- week1
 - cncf
 category: blog
 author: atibhi
@@ -19,11 +18,11 @@ Hi everyone ! I am [Atibhi Agrawal](https://twitter.com/atibhi_a), a pre-final y
 
 #### How I heard of fluent-d 
 
-I was an intern at Hackerrank last summer where one of the tasks involved sending logs to stackdriver using fluent-d. That was the first time I heard of fluent-d. Fluentd is an open source data collector for unified logging layer. In November of 2020 I got the opportunity to go to KubeCon and Cloud Native Con North America as a diversity scholar and I met Eduardo over there at the maintainers meetup. He told me about the internship and I applied. The application process consisted of tasks as well as a video interview with Eduardo and Masoud. I was so happy and grateful when I heard back from them that I was selected.
+I was an intern at Hackerrank last summer where one of the tasks involved sending logs to stackdriver using fluent-d. That was the first time I heard of fluent-d. Fluentd is an open source data collector for unified logging layer. In November of 2020 I got the opportunity to go to KubeCon and Cloud Native Con North America as a diversity scholar. At the conference, I met Eduardo at the maintainers meetup. He told me about the internship and I applied for it. The application process consisted of tasks as well as a video interview with Eduardo and Masoud. I was so happy and grateful when I heard back from them that I was selected.
 
 #### Week 1 of the internship
 
-Last week was my first week of the internship. I had a video call meeting with [Eduardo](https://twitter.com/edsiper) and [Masoud](https://twitter.com/_koleini) at the beginning of the week where we talked about the work that was expected of me as well as explained the general guidelines and code of conduct to be followed for the internship. 
+January 6 to January 12 was the first week of the internship. I had a video call meeting with [Eduardo](https://twitter.com/edsiper) and [Masoud](https://twitter.com/_koleini) at the beginning of the week where we talked about the work that was expected of me. They also explained the general guidelines and code of conduct to be followed for the internship. 
 
 Currently, [Fluent-bit](https://fluentbit.io) exposes an API which is used by the plugins to read configuration values. This works as expected but problems arise when the plugin receives an unknown configuration key. There is also a need to reduce risk in case of bad configuration keys or depreciated property names. My task is to add config maps to plugin so that in the future dynamic reload support can be implemented. Dynamic reload is important so that the core is aware of the expected configuration properties of each plugin and it can perform validations before taking any reload action. You can refer to [this](https://github.com/fluent/fluent-bit/issues/1672) issue for more details.
 
