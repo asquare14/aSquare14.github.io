@@ -29,4 +29,5 @@ I learnt a lot about config_maps in general this week. I am going to summarize w
 
 - Test every plugin for which I have regsitered config maps till now.
 - Migrate more plugins.
+
 ---
