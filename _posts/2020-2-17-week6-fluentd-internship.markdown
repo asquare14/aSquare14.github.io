@@ -24,5 +24,5 @@ description: Description of week-6 of fluent-d internship
 #### Plans for next week
 
 - Test every plugin for which I have regsitered config maps till now.
-- Migrate more plugins.
+
 ---
