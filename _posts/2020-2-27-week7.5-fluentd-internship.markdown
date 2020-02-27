@@ -1,0 +1,31 @@
+---
+
+title: "CNCF/Fluentd Internship: Week 7.5/12"
+layout: post
+date: 2020-02-27 10:02
+tag:
+- fluentd
+- cncf
+category: blog
+author: atibhi
+description: Description of week-7.5 of fluent-d internship
+
+---
+
+#### Week 7.5 of the internship
+
+**Work done**
+
+- [out-azure](https://github.com/fluent/fluent-bit/pull/1878/files) Sent Pull Request for this, setup Azure Log Analytics Engine as well.(Waiting for review)
+
+- Made changes in out_forward, out_retry, out_treasure_data and out_tcp. (Waiting for review.)
+
+- out_forward got [merged](https://github.com/fluent/fluent-bit/commit/d6c5dc5086a13b4e49a8a98a74ff255bc9282e77).
+
+- Have started writing [daily blogs](https://docs.google.com/document/d/1xCTCMhxXSfzQaaUMGIlahoGK-jixN51OqBK74FhXDi4/edit).
+
+#### Plans for next half of the week
+
+- Migrate in_syslog and in_mqtt.
+
+---
