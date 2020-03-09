@@ -25,7 +25,6 @@ description: Description of week-8 of fluent-d internship
 
 #### Pull Requests Waiting for Review
 
-- out-forward - https://github.com/fluent/fluent-bit/pull/1904 
 - out-tcp - https://github.com/fluent/fluent-bit/pull/1971 
 
 - out-retry -https://github.com/fluent/fluent-bit/pull/1911 
