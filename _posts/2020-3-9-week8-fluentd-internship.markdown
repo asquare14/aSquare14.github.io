@@ -1,14 +1,14 @@
 ---
 
-title: "CNCF/Fluentd Internship: Week 7.5/12"
+title: "CNCF/Fluentd Internship: Week 8/12"
 layout: post
-date: 2020-02-27 10:02
+date: 2020-03-9 10:02
 tag:
 - fluentd
 - cncf
 category: blog
 author: atibhi
-description: Description of week-7.5 of fluent-d internship
+description: Description of week-8 of fluent-d internship
 
 ---
 
