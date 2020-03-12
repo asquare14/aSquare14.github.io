@@ -1,0 +1,47 @@
+---
+
+title: "CNCF/Fluentd Internship: Week 8.5/12"
+layout: post
+date: 2020-03-12 22:30
+tag:
+- fluentd
+- cncf
+category: blog
+author: atibhi
+description: Description of week-8.5 of fluent-d internship
+
+---
+
+#### Week 8.5 of the internship
+
+**Work done**
+
+- Wrote Blog for Week-8
+- in_mqtt- https://github.com/fluent/fluent-bit/pull/1985 (Reviewed by fujimotos)
+		- made changes as requested by fujimotos and also did testing.
+		- conclusion - config_map should be empty. Added an empty config map as it would show an error when someone tried to use a non-existent option.(Waiting for review)
+- out-azure (Reviewed by fujimotos) https://github.com/fluent/fluent-bit/pull/1878
+    - Worked on fixing and testing the reviews by fujimotos.
+- in_syslog - Stuck at doubts.
+- Started working on out_tcp2 plugin. Going through codebase of stdout2 and understanding code. 
+
+#### Pull Requests Waiting for Review
+
+- out-tcp - https://github.com/fluent/fluent-bit/pull/1971 
+
+- out-retry -https://github.com/fluent/fluent-bit/pull/1911 
+
+- out-td - https://github.com/fluent/fluent-bit/pull/1892  
+
+- out-azure - https://github.com/fluent/fluent-bit/pull/1878/files
+
+- in_mqtt - https://github.com/fluent/fluent-bit/pull/1985 (Approved)
+
+
+#### Plans for next week
+
+- Migrate in_syslog 
+- finish reviews.
+- finish out_tcp2
+
+---
