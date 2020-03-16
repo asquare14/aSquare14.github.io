@@ -14,7 +14,7 @@ description: Description of week-1 of fluent-d internship
 
 #### Introduction
 
-Hi everyone ! I am [Atibhi Agrawal](https://twitter.com/atibhi_a), a pre-final year student of Integrated Masters (Bachelors+Masters) in Electronics and Communication engineering course at International Institute of Information Technology, Bangalore. I will be contributing to fluent-d as a part of the CommunityBridge and Cloud Native Computing Foundation's internship program. I will also be gettings 4 credits for the same as I have taken it as a project elective under [Professor B.Thangaraju](https://www.iiitb.ac.in/faculty/thangaraju-b) who takes the Operating Systems, Software Engineering courses etc. in our college.
+Hey everyone ! I am [Atibhi Agrawal](https://twitter.com/atibhi_a), a pre-final year student of Integrated Masters (Bachelors+Masters) in Electronics and Communication engineering course at International Institute of Information Technology, Bangalore. I will be contributing to fluent-d as a part of the CommunityBridge and Cloud Native Computing Foundation's internship program. I will also be gettings 4 credits for the same as I have taken it as a project elective under [Professor B.Thangaraju](https://www.iiitb.ac.in/faculty/thangaraju-b) who takes the Operating Systems, Software Engineering courses etc. in our college.
 
 #### How I heard of fluent-d 
 
