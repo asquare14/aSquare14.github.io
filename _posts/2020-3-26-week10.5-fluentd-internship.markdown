@@ -21,6 +21,7 @@ description: Description of week-10.5 of fluent-d internship
   to leverage the config map. 
   - Updated the documentation for out-azure. Added missing parameter time_key. [Link](https://github.com/fluent/fluent-bit-docs/pull/283). 
   - Removed trailing whitespaces. Found this cool [article](https://stackoverflow.com/questions/3372822/git-trim-whitespace) on the same. 
+  
 - External out-tcp plugin in [fluent-bit/plugins](https://github.com/fluent/fluent-bit-plugin/pulls)
   - Added gitignore file in the repository. [Link](https://github.com/fluent/fluent-bit-plugin/pull/6)
   - Updated my [PR](https://github.com/fluent/fluent-bit-plugin/pull/5) for the external plugin. Took care of memory leaks, assignments,
