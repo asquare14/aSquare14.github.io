@@ -1,0 +1,28 @@
+---
+
+title: "CNCF/Fluentd Internship: Week 11/12"
+layout: post
+date: 2020-04-02 10:30
+tag:
+- fluentd
+- cncf
+category: blog
+author: atibhi
+description: Description of week-11.5 of fluent-d internship
+
+---
+
+#### Week 11.5 of the internship
+
+**Work done**
+
+- [Developer Guide](https://github.com/fluent/fluent-bit/blob/master/DEVELOPER_GUIDE.md)
+  - Worked on reviews for adding documentation of config maps to developer guide.
+  - In reference to this PR, I added documentation for the properties used in config map in stdout plugin. [Link](https://github.com/fluent/fluent-bit/pull/2075/files)
+
+
+#### Plans for next week
+
+- To Discuss
+
+---
