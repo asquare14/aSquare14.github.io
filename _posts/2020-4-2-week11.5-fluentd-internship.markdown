@@ -1,6 +1,6 @@
 ---
 
-title: "CNCF/Fluentd Internship: Week 11/12"
+title: "CNCF/Fluentd Internship: Week 11.5/12"
 layout: post
 date: 2020-04-02 10:30
 tag:
