@@ -1,7 +1,7 @@
 ---
 title: Introducing Team Rubies - Our RGSoC Journey
 layout: post
-date: 2018-06-03 13:30
+date: 2018-03-06 13:30
 tag:
 - internship
 - rgsoc
