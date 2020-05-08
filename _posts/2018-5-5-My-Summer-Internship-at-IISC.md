@@ -1,6 +1,6 @@
 ---
 
-title: "[May 2018 - June 2018] Summer Internship Experience at IISc, Bengaluru"
+title: "My Summer Internship at IISc, Bengaluru"
 layout: post
 date: 2018-05-05 13:30
 tag:
