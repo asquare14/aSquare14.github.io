@@ -1,5 +1,5 @@
 ---
-title: Introducing Team Rubies
+title: Introducing Team Rubies - Our RGSoC Journey
 layout: post
 date: 2018-05-05 13:30
 tag:
@@ -10,8 +10,6 @@ author: Atibhi and Prateksha
 ---
 
 ### **The Journey of a Thousand Miles Begins with One Step : Our journey to becoming Rails Girls SoC Scholars 2018**
-
-#### **And here's how the journey of Team Rubies started!**
 
 Atibhi had just started learning Ruby on Rails and was googling some random error, when Google redirected her to the official page of Rails Girls Summer of Code.
 She started reading up on it. The more she read, the more convinced she became that she had to apply to this program !
