@@ -62,16 +62,16 @@ We met such amazing people. We cannot believe we have friends from Korea, Berlin
 
 ### **RGSoC’18 in Tweets !**
 
-![Alvaro's tweet](images/2018-07-30-TeamRubies-AlvaroTweet.jpg)
+![Alvaro's tweet](https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-AlvaroTweet.jpg)
 <div class="image-credits"><b>Alvaro's Tweet (Credit: Twitter)</b></div>
 
-![Julia's tweet](images/2018-07-30-TeamRubies-JuliaTweet.jpg)
+![Julia's tweet](https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-JuliaTweet.jpg)
 <div class="image-credits"><b>Julia's Tweet (Credit: Twitter)</b></div>
 
-![Srishti's tweet](images/2018-07-30-TeamRubies-SrishtiTweet.jpg)
+![Srishti's tweet](https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-SrishtiTweet.jpg)
 <div class="image-credits"><b>Srishti's Tweet (Credit: Twitter)</b></div>
 
-![Atibhi's tweet](images/2018-07-30-TeamRubies-AtibhiTweet.jpg)
+![Atibhi's tweet](https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-AtibhiTweet.jpg)
 <div class="image-credits"><b>Atibhi's Tweet (Credit: Twitter)</b></div>
 
 ### **The ending is only a beginning in disguise. What’s next for us ?**

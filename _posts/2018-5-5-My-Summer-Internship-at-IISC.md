@@ -13,7 +13,7 @@ description: Weekly Blogs
 
 This summer I had the opportunity to intern at Department of Electronic Systems Engineering at IISc under Prof. Mayank Srivastava. In this post, I am going to write about my internship experience.
 
-![IISc Image](images/iisc-1.jpeg)
+![IISc Image](https://asquare14.github.io/assets/images/iisc-1.jpeg)
 
 #### MAY
 On my first day of internship, I nervously came to the department and was overwhelmed by the size of the labs and buildings. I met my PhD mentor Harsha Ma'am and Abhishek Sir, and they assigned me a problem statement.
@@ -37,7 +37,7 @@ But this was just the beginning. The establishing of communication was just a "H
 The final days consisted of coding and testing. Test, Code and test again. After a lot of modifications, my program was finally running ! I couldn't believe it. I had actually solved the problem statement !
 My setup would be used to measure low frequency noise in wafer level devices fabricated by the research group. :)
 
-![IISc Lab](images/iisc-lab.jpeg)
+![IISc Lab](https://asquare14.github.io/assets/images/iisc-lab.jpeg)
 
 #### THE PEOPLE
 
