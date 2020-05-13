@@ -9,7 +9,16 @@
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/tags">Blog</a>
+                    <a class="link" href="{{ site.url }}/blog">Blogs</a>
+                </li>
+            {% endif %}
+        {% endif %}
+        
+
+        {% if site.blog == true %}
+            {% if page.title == "Blog" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/tags">Category Wise Blogs</a>
                 </li>
             {% endif %}
         {% endif %}
