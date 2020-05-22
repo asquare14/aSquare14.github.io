@@ -2,25 +2,6 @@
 layout: page
 title: Tags
 ---
-<section class="list">
-    <h2 class="title">Categories</h2>
-
-    {% assign tags_list = site.tags %}
-
-    {% if tags_list.first[0] == null %}
-        {% for tag in tags_list %}
-            <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
-    {% else %}
-        {% for tag in tags_list %}
-            <a class="item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-        {% endfor %}
-    {% endif %}
-
-    {% assign tags_list = nil %}
-</section>
-
-<hr>
 
 <section class="tag-list">
     {% for tag in site.tags  %}
@@ -47,3 +28,22 @@ title: Tags
     <div class="breaker"></div>
     {% endfor %}
 </section>
+<hr>
+<section class="list">
+    <h2 class="title">Categories</h2>
+
+    {% assign tags_list = site.tags %}
+
+    {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %}
+            <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    {% else %}
+        {% for tag in tags_list %}
+            <a class="item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+        {% endfor %}
+    {% endif %}
+
+    {% assign tags_list = nil %}
+</section>
+
