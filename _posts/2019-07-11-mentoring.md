@@ -3,7 +3,7 @@ title: Mentoring others in Open Source
 layout: post
 date: 2019-07-11 13:30
 tag:
-- open source
+- Open Source
 category: blog
 author: atibhi
 ---

@@ -7,8 +7,7 @@ layout: page
 Namaste everyone !
 I am Atibhi Agrawal and if you're reading this you have stumbled upon my personal site on the World Wide Web.
 
-I'm an Integrated Masters student at International Institute of Information technology, Bengaluru. I am interested in software engineering(pretty broad I know !), distributed systems, open source and Natural Language Processing.
-I have done internships at [Hackerrank](https://www.hackerrank.com/) in 2019 and was a [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/blog/2018-07-30-introducing-team-rubies) in 2018. These internships helped me grow professionally as well as personally. They are one of the major reason why I want to pursue software engineering in the future. You can read more about my work and projects [here](http://linkedin.com/in/atibhi-agrawal-267525149/).
+I'm an Integrated Masters student at International Institute of Information technology, Bengaluru. I am interested in software engineering(pretty broad I know !), distributed systems, open source and algorithms. 
 
 <!-- #### Causes I feel strongly about
 

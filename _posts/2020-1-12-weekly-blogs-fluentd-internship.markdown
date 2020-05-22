@@ -4,7 +4,7 @@ title: "Cloud Native Computing Foundation Internship at Fluent Bit: Weekly Blogs
 layout: post
 date: 2020-01-12 13:30
 tag:
-- internship
+- Internship Experiences
 category: blog
 author: atibhi
 description: Weekly Blogs

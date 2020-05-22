@@ -4,7 +4,7 @@ title: "My Summer Internship at IISc, Bengaluru"
 layout: post
 date: 2018-05-05 13:30
 tag:
-- internship
+- Internship Experiences
 category: blog
 author: atibhi
 description: Weekly Blogs

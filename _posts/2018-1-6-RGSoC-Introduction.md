@@ -3,8 +3,7 @@ title: Introducing Team Rubies - Our RGSoC Journey
 layout: post
 date: 2018-06-06 13:30
 tag:
-- internship
-- rgsoc
+- Internship Experiences
 category: blog
 author: Atibhi and Prateksha
 ---

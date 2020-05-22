@@ -3,7 +3,7 @@ title: Kubernetes Day India
 layout: post
 date: 2019-06-14 13:30
 tag:
-- conference
+- My experience at various conferences
 category: blog
 author: atibhi
 ---

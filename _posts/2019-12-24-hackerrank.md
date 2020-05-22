@@ -4,7 +4,7 @@ title: "My Summer Internship at Hackerrank Bangalore"
 layout: post
 date: 2019-12-24 13:30
 tag:
-- internship
+- Internship Experiences
 category: blog
 author: atibhi
 description: Weekly Blogs

@@ -3,8 +3,7 @@ title: What we learnt and accomplished during RGSoC
 layout: post
 date: 2018-09-01 13:30
 tag:
-- internship
-- rgsoc
+- Internship Experiences
 category: blog
 author: Atibhi and Prateksha
 ---
