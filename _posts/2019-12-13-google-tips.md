@@ -57,12 +57,12 @@ It is not about the number of questions rather it is about "how" well you unders
 
 **What are the important topics I should study ?**
 
-1. **Big O Notation**
+**Big O Notation**
 
 - [Theory](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
 - Practice problems from Cracking the Coding Interview
 
-2. **Arrays and Maths**
+**Arrays and Maths**
 
 - Practice a lot of Questions on Arrays and Maths. Some important topics are mentioned below.
 - [Circular Arrays - Typical ways to solve on Leetocode](https://leetcode.com/problems/next-greater-element-ii/discuss/98262/typical-ways-to-solve-circular-array-problems-java-solution)
@@ -80,18 +80,18 @@ It is not about the number of questions rather it is about "how" well you unders
 - [Finding square root of a number in logn time - Leetcode](https://leetcode.com/problems/sqrtx/)
 - Subarray and Subsequence problems.
 
-3. **Binary Search**
+ **Binary Search**
 
 - [Binary Search from Topcoder(MUST)](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search)
 
-4. **Bitwise manipulation**
+**Bitwise manipulation**
 
 - [A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
 - [Good website to visualize bitwise operations](http://bitwisecmd.com/)
 - [https://www.geeksforgeeks.org/bits-manipulation-important-tactics/](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)
 
 
-5. **Trees**
+**Trees**
 
 - [Pre-order(BOTH recursive and iterative)](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - [Post-order(BOTH recursive and iterative](https://leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -106,7 +106,7 @@ It is not about the number of questions rather it is about "how" well you unders
 - Morris In-order traversal by Tushar Roy (Video)
 - [Threaded Binary Tree](https://algorithms.tutorialhorizon.com/introduction-to-threaded-binary-tree/)
 
-6. **Recursion and Backtracking**
+**Recursion and Backtracking**
 
 - [Recursion and Backtracking Tutorial](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
 - [Blog by csgator(BEST)](https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26?source=---------6------------------)
@@ -116,7 +116,7 @@ It is not about the number of questions rather it is about "how" well you unders
 - [Word break Problem 2 Leetcode](https://leetcode.com/problems/word-break-ii/)
 - [Letter combinations of a phone-number Leetcode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
-7. **Graphs**
+**Graphs**
 
 - [Representing graphs](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
 - [DFS, BFS Explanation by csgator(BEST)](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)
@@ -128,11 +128,11 @@ It is not about the number of questions rather it is about "how" well you unders
 - [Friend Circles](https://leetcode.com/problems/friend-circles/)
 - [Decode String](https://leetcode.com/problems/decode-string/)
 
-8. **Geometry**
+**Geometry**
 
 - [Geometric Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/geometric-algorithms/)
 
-9. **Hashing**
+**Hashing**
 
 - [map vs unordered_map in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/map-vs-unordered_map-c/)
 - [Design HashMap](https://leetcode.com/problems/design-hashmap/)
@@ -140,7 +140,7 @@ It is not about the number of questions rather it is about "how" well you unders
 - [Sliding Window algorithm template to solve all the Leetcode substring search problem. - LeetCode Discuss (This is important !)](https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem)
 - [String Hashing](https://cp-algorithms.com/string/string-hashing.html)
 
-10. **Linked List**
+**Linked List**
 
 - Insertion 
 - Deletion of Node
@@ -152,7 +152,7 @@ It is not about the number of questions rather it is about "how" well you unders
 - [LRU Cache - C++ Implementation - Bhrigu Srivastava](http://bhrigu.me/blog/2017/01/22/lru-cache-c-plus-plus-implementation/)
 - [Copy list with random-pointer (BEAUTIFUL QUESTION!)](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
-11. **Dynamic Programming**
+**Dynamic Programming**
 
 - [TopCoder Article (VERY IMPORTANT!!! MUST)](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Top 20 DP questions(Geeks for geeks) Important!](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
@@ -161,20 +161,20 @@ It is not about the number of questions rather it is about "how" well you unders
 - [Top 50 DP questions](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)
 - [Difference between DP and Divide and Conquer](https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming)
 
-12. **Disjoint Set Union**
+**Disjoint Set Union**
 
 - [DSU CP-Algorithm](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
 
-13. **Sorting**
+**Sorting**
 
 - Be clear with the basic algorithm and time complexity of all sorting algorithms.
 - Additionally read up count sort, bucket sort and radix sort.
 
-14. **Greedy**
+**Greedy**
 
 - [Basics of Greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
 
-14. **System Design**
+**System Design**
 
 - [Leetcode System Design Posts](https://leetcode.com/discuss/interview-question/system-design?currentPage=1&orderBy=hot&query=)
 - [System Design Videos (Sufficient for prep)](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
