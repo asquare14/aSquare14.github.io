@@ -1,9 +1,8 @@
 # main text of home
 name: Atibhi Agrawal
-bio: Open Source and Tech Enthusiast | Graduate Student @IIITB_Official 💻| Incoming SWE intern 2020 at Google India✨| @RailsGirlsSoC ' 18 at @ifmeorg ✨| Leader at LeanIn Chapter IIIT-B 🌈 
-
+bio: Open Source 💻 | Diversity and Inclusion 🌈 | Google Intern 2020✨
 # twitter summary info
-description: A blog about technology and stuff related
+description: My personal space on the World Wide Web
 
 # if it's an external image, update below for true
 # better with square images
@@ -55,7 +54,7 @@ email: atibhi.a@gmail.com
 authors:
     atibhi:
         name: Atibhi Agrawal
-        bio: A girl who loves coding and art 
+        #bio: 
         external-image: false
         picture: assets/images/profile.jpg
         twitter: /atibhi_a
