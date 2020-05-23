@@ -23,11 +23,11 @@
         {% endif %}
 
         {% if site.projects == true %}
-        {% if page.title != "Projects" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/projects">Musings</a>
-            </li>
-        {% endif %}
+            {% if page.title != "Projects" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/projects">Musings</a>
+                </li>
+            {% endif %}
         {% endif %}
 
         {% if site.resume == true %}
