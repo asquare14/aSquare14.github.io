@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 Namaste 🙏 ! 
-If you are reading this, welcome to my blog. I'm Atibhi, a final year Integrated Master student at [IIIT-Bangalore](https://www.iiitb.ac.in/), an aspiring Software Enginner, an advocate for diversity and inclusion in STEM, [open source enthusiast](https://www.redhat.com/en/about/women-in-open-source), a voracious reader and an artist.
+If you are reading this, welcome to my blog. I'm Atibhi, a final year Integrated Masters student at [IIIT-Bangalore](https://www.iiitb.ac.in/), an aspiring Software Enginner, an advocate for diversity and inclusion in STEM and an [open source enthusiast](https://www.redhat.com/en/about/women-in-open-source).
 
 Presently, I am interested in building distributed systems and algorithms that can scale. I care about building impactful, accessible and inclusive tech for everyone. I am also passionate about diversity in tech and am the founder on Lean In Chapter IIIT-B which is an organization that helps to empower women in technology.💜
 
