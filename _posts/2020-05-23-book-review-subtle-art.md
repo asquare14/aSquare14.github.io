@@ -11,9 +11,9 @@ permalink: subtle-art-book-review
 
 #### Book Review
 
-- I started reading this book with a lot of skepticism. I wondered what it could teach me. Don't we all know that we shouldn't give a f*ck about everything ? The Subtle Art of Not Giving a F*ck surprised me and changed my perspective on a lot of things. It does not have ground breaking philosophy but it reinforces what we already know using simple and direct statements. It basically tells us to take things more lightly when taking them too seriously is detrimental for our mental health.
+- I started reading this book with a lot of skepticism. I wondered what it could teach me. However, The Subtle Art of Not Giving a F#ck surprised me and changed my perspective on life. It does not have any ground breaking philosophy but the author explains philosphy using simple and direct statements. This book basically tells us to take things more lightly when taking them too seriously is detrimental.
 
-- This book can get preachy at times and there are many times when I felt like the author maybe wanted us to become too casual about life. There are far better books on life and philosophy but if you are looking for a light read, this isn't a bad option.
+- This book can get preachy at times and there are times when I felt like the author wanted us to become too casual about life. There are far better books on life and philosophy but if you are looking for a light read, this isn't a bad option.
 
 #### Quotes
 
