@@ -1,6 +1,6 @@
 ---
 
-title: "My Summer Internship at Hackerrank Bangalore"
+title: "My 2019 Summer Internship at Hackerrank Bangalore"
 layout: post
 date: 2019-12-24 13:30
 tag:

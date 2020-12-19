@@ -1,85 +1,712 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-26T17:09:17+05:30</updated><id>http://localhost:4000/</id><title type="html">Atibhi Agrawal</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">CNCF/Fluentd Internship: Week 3/12</title><link href="http://localhost:4000/week3-fluentd-internship/" rel="alternate" type="text/html" title="CNCF/Fluentd Internship: Week 3/12" /><published>2020-01-26T12:30:00+05:30</published><updated>2020-01-26T12:30:00+05:30</updated><id>http://localhost:4000/week3-fluentd-internship</id><content type="html" xml:base="http://localhost:4000/week3-fluentd-internship/">&lt;h4 id=&quot;week-3-of-the-internship&quot;&gt;Week 3 of the internship&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T22:48:53+05:30</updated><id>http://localhost:4000/</id><title type="html">Atibhi Agrawal</title><subtitle>My personal space on the World Wide Web</subtitle><entry><title type="html">Book Review : The Subtle Art of Not Giving a F*ck</title><link href="http://localhost:4000/subtle-art-book-review" rel="alternate" type="text/html" title="Book Review : The Subtle Art of Not Giving a F*ck" /><published>2020-05-23T00:00:00+05:30</published><updated>2020-05-23T00:00:00+05:30</updated><id>http://localhost:4000/book-review-subtle-art</id><content type="html" xml:base="http://localhost:4000/subtle-art-book-review">&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/subtle-art.jpg&quot; alt=&quot;Image-1-1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This week I worked on the &lt;a href=&quot;https://docs.fluentbit.io/manual/output/forward&quot;&gt;forward&lt;/a&gt; output plugin. It is the protocol used by fluentd to route messages between peers. It also provides interoperability between
-Fluentd and Fluentbit. I faced some issues while setting up Fluentd because the port that was used by Fluentd was also being used by ruby. After, I got the setup, I registered a config map for the forward plugin. However,forward output supports upstream servers and hence I had to read about &lt;a href=&quot;https://docs.fluentbit.io/manual/configuration/upstream_servers&quot;&gt;Upstream Servers&lt;/a&gt; to test the plugin. While reading about upstream server I also read about &lt;a href=&quot;https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/&quot;&gt;TLS&lt;/a&gt; which is a widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet. In fact, HTTPS is an implementation of TLS encryption on top of the HTTP protocol.&lt;/p&gt;
-
-&lt;p&gt;I also worked on the &lt;a href=&quot;https://docs.fluentbit.io/manual/output/gelf&quot;&gt;gelf&lt;/a&gt; and &lt;strong&gt;retry&lt;/strong&gt; output plugins and registered config maps for them.&lt;/p&gt;
-
-&lt;p&gt;I also started working on &lt;strong&gt;splunk&lt;/strong&gt; plugin but faced issues while setting up splunk in the cloud and sending logs to it. I shall complete this in the next few days after taking help from my mentors and also work on other output plugins.&lt;/p&gt;
-
-&lt;h4 id=&quot;plan-for-the-next-week&quot;&gt;Plan for the next week&lt;/h4&gt;
+&lt;h4 id=&quot;book-review&quot;&gt;Book Review&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Add config maps for the rest of the output plugins.&lt;/li&gt;
-  &lt;li&gt;Make changes requested for the Pull Requests which are under review.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I started reading this book with a lot of skepticism. I wondered what it could teach me. However, The Subtle Art of Not Giving a F#ck surprised me and changed my perspective on life. It does not have any ground breaking philosophy but the author explains philosophy using simple and direct statements. This book basically tells us to take things more lightly when taking them too seriously is detrimental.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This book can get preachy at times and there are times when I felt like the author wanted us to become too casual about life. There are far better books on life and philosophy but if you are looking for a light read, this isn’t a bad option.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="fluentd" /><category term="cncf" /><summary type="html">Week 3 of the internship</summary></entry><entry><title type="html">CNCF/Fluentd Internship: Week 2/12</title><link href="http://localhost:4000/week2-fluentd-internship/" rel="alternate" type="text/html" title="CNCF/Fluentd Internship: Week 2/12" /><published>2020-01-19T13:30:00+05:30</published><updated>2020-01-19T13:30:00+05:30</updated><id>http://localhost:4000/week2-fluentd-internship</id><content type="html" xml:base="http://localhost:4000/week2-fluentd-internship/">&lt;h4 id=&quot;week-2-of-the-internship&quot;&gt;Week 2 of the internship&lt;/h4&gt;
+&lt;h4 id=&quot;quotes&quot;&gt;Quotes&lt;/h4&gt;
 
-&lt;p&gt;I registered config maps for 3 output plugins and made changes to the 2 PRs opened last week(the &lt;a href=&quot;https://github.com/fluent/fluent-bit/pulls/aSquare14&quot;&gt;Pull Requests&lt;/a&gt; are under review.)&lt;/p&gt;
+&lt;p&gt;Whenever I read a book, I highlight sentences that I love or relate to. This book had a lot of highlight worthy sentences. Here are a few of my top highlights :&lt;/p&gt;
 
-&lt;p&gt;The plugins are :&lt;/p&gt;
-
-&lt;p&gt;1) &lt;a href=&quot;https://docs.fluentbit.io/manual/output/azure&quot;&gt;out_azure&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2) &lt;a href=&quot;https://docs.fluentbit.io/manual/output/datadog&quot;&gt;out_datadog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3) &lt;a href=&quot;https://docs.fluentbit.io/manual/output/td&quot;&gt;td&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;4) &lt;a href=&quot;https://docs.fluentbit.io/manual/output/tcp&quot;&gt;out_tcp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;5) &lt;a href=&quot;https://docs.fluentbit.io/manual/output/nats&quot;&gt;nats&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I devised a rough workflow for migrating the plugins :&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Test Plugin→
-Add config map →Remove/Simplify code in Config File of plugin →Test Plugin→ Send PR → Make changes to PR&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I also got my hands dirty with Microsoft Azure and Datadog to test if the plugins are working properly. This was particularly exciting for me because I am getting to learn about DevOps along with Software Engineering.&lt;/p&gt;
-
-&lt;p&gt;Moreover, I learnt a lot from my mentors Eduardo and Masoud. They explained in detail what the function of a &lt;code class=&quot;highlighter-rouge&quot;&gt;config_map&lt;/code&gt; is and why &lt;code class=&quot;highlighter-rouge&quot;&gt;offsetof&lt;/code&gt; is used in config maps. Writing down the explanation below for future reference.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Config Map&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The config map has two main jobs:&lt;/p&gt;
-
-&lt;p&gt;1) Specify “which” parameters are allowed in any plugin.&lt;/p&gt;
-
-&lt;p&gt;2) Optional support to write the recieved parameter to the plugin context&lt;/p&gt;
-
-&lt;p&gt;3) When a config map is specified, if a parameter was not registered it will fail and exit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;offsetof()&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The macro offsetof() returns the offset of the field member from the    start of the structure type. &lt;code class=&quot;highlighter-rouge&quot;&gt;offsetof()&lt;/code&gt; returns the offset of the given member within the given type, in units of bytes.&lt;/p&gt;
-
-&lt;h4 id=&quot;plan-for-the-next-week&quot;&gt;Plan for the next week&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Life and self-improvement&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Add config maps for the rest of the output plugins.&lt;/li&gt;
-  &lt;li&gt;Make changes requested for the Pull Requests which are under review.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;The key to a good life is not giving a fuck about more; it’s giving a fuck about less, giving a fuck about only what is true and immediate and important.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;This, in a nutshell, is what “self-improvement” is really about: prioritizing better values, choosing better things
+to give a fuck about. Because when you give better fucks, you get better problems. And when you get better
+problems, you get a better life.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;*Good values are 1) reality-based, 2) socially constructive, and 3) immediate and controllable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Don’t find yourself. I say never know who you are. Because that’s what keeps you striving and discovering. And it forces you to remain humble in your judgments and accepting&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="fluentd" /><category term="cncf" /><summary type="html">Week 2 of the internship</summary></entry><entry><title type="html">CNCF/Fluentd Internship: Week 1/12</title><link href="http://localhost:4000/week1-fluentd-internship/" rel="alternate" type="text/html" title="CNCF/Fluentd Internship: Week 1/12" /><published>2020-01-12T13:30:00+05:30</published><updated>2020-01-12T13:30:00+05:30</updated><id>http://localhost:4000/week1-fluentd-internship</id><content type="html" xml:base="http://localhost:4000/week1-fluentd-internship/">&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Happiness&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Hi everyone ! I am &lt;a href=&quot;https://twitter.com/atibhi_a&quot;&gt;Atibhi Agrawal&lt;/a&gt;, a pre-final year student of Integrated Masters (Bachelors+Masters) in Electronics and Communication engineering course at International Institute of Information Technology, Bangalore. I will be contributing to fluent-d as a part of the CommunityBridge and Cloud Native Computing Foundation’s internship program. I will also be gettings 4 credits for the same as I have taken it as a project elective under &lt;a href=&quot;https://www.iiitb.ac.in/faculty/thangaraju-b&quot;&gt;Professor B.Thangaraju&lt;/a&gt; who takes the Operating Systems, Software Engineering courses etc. in our college.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one’s negative experience is itself a positive experience.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;how-i-heard-of-fluent-d&quot;&gt;How I heard of fluent-d&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Problems&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I was an intern at Hackerrank last summer where one of the tasks involved sending logs to stackdriver using fluent-d. That was the first time I heard of fluent-d. Fluentd is an open source data collector for unified logging layer. In November of 2020 I got the opportunity to go to KubeCon and Cloud Native Con North America as a diversity scholar. At the conference, I met Eduardo at the maintainers meetup. He told me about the internship and I applied for it. The application process consisted of tasks as well as a video interview with Eduardo and Masoud. I was so happy and grateful when I heard back from them that I was selected.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Live with a certain degree of dissatisfaction and insecurity, because it’s the mildly dissatisfied and insecure
+creature that’s going to do the most work to innovate and survive.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Problems never stop; they merely get exchanged and/or upgraded.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;True happiness occurs only when you find the problems you enjoy having and enjoy solving.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;But taking responsibility for our problems is far more important, because that’s where the real learning comes
+from. That’s where the real-life improvement comes from.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;week-1-of-the-internship&quot;&gt;Week 1 of the internship&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Success&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;January 6 to January 12 was the first week of the internship. I had a video call meeting with &lt;a href=&quot;https://twitter.com/edsiper&quot;&gt;Eduardo&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/_koleini&quot;&gt;Masoud&lt;/a&gt; at the beginning of the week where we talked about the work that was expected of me. They also explained the general guidelines and code of conduct to be followed for the internship.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Improvement at anything is based on thousands of tiny failures, and the magnitude of your success is based on how many times you’ve failed at something. If someone is better than you at something, then it’s likely because she has failed at it more than you have. If someone is worse than you, it’s likely because he hasn’t been through all of the painful learning experiences you have.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;People who become great at something become great because they understand that they’re not already great—they are mediocre, they are average—and that they could be so much better.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;For many of us, our proudest achievements come in the face of the greatest adversity. Our pain often makes us stronger, more resilient, more grounded.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Currently, &lt;a href=&quot;https://fluentbit.io&quot;&gt;Fluent-bit&lt;/a&gt; exposes an API which is used by the plugins to read configuration values. This works as expected but problems arise when the plugin receives an unknown configuration key. There is also a need to reduce risk in case of bad configuration keys or depreciated property names. My task is to add config maps to plugin so that in the future dynamic reload support can be implemented. Dynamic reload is important so that the core is aware of the expected configuration properties of each plugin and it can perform validations before taking any reload action. You can refer to &lt;a href=&quot;https://github.com/fluent/fluent-bit/issues/1672&quot;&gt;this&lt;/a&gt; issue for more details.&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>atibhi</name></author><summary type="html"></summary></entry><entry><title type="html">My 2019 Summer Internship at Hackerrank Bangalore</title><link href="http://localhost:4000/hackerrank/" rel="alternate" type="text/html" title="My 2019 Summer Internship at Hackerrank Bangalore" /><published>2019-12-24T13:30:00+05:30</published><updated>2019-12-24T13:30:00+05:30</updated><id>http://localhost:4000/hackerrank</id><content type="html" xml:base="http://localhost:4000/hackerrank/">&lt;p&gt;I had the opportunity to intern at Hackerrank, Bangalore during the summer of 2019 and in this blog I’d like to tell you about my experience ! For those of you who haven’t heard about Hackerrank, it is the market–leading technical inteview platform to identify and hire developers with the right skills. It also has a community website where you can practice problems, solve challenges and become a better developer. It has offices in Mountain View, London and Bengaluru :)&lt;/p&gt;
 
-&lt;p&gt;During the past week, I worked on adding config maps to &lt;a href=&quot;https://fluentbit.io/documentation/0.12/output/nats.html&quot;&gt;nats&lt;/a&gt; and &lt;a href=&quot;https://github.com/fluent/fluent-bit/tree/master/plugins/out_tcp&quot;&gt;out_tcp&lt;/a&gt; plugin. My Pull Requests are under review. I also revised up on C basics and went through the codebase to get familiar with the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Applying to Hackerrank&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;plans-for-next-week&quot;&gt;Plans for next week&lt;/h4&gt;
+&lt;p&gt;I heard about the internship opening from a friend and applied through their careers page. They hire two kinds of interns, Technical Content Engineers(TCE) and Software Engineering(SWE) Interns. The TCEs are responsible for curating and making problems on algorithms, data structures etc for hackerrank while the SWEs work on DevOps, Back-end, Front-end etc. I applied for an SWE position and had an interview scheduled with the CTO of hackerrank Harishankaran Karunanidhi. After the interview, he said they would get back to me and within a week I had an offer from Hackerrank. I was really excited to join !&lt;/p&gt;
 
-&lt;p&gt;I plan to add config maps for the remaining plugins in the next week.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/hr-1.jpeg&quot; alt=&quot;Image-1-1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I am really excited for my internship and look forward to contributing, learning and growing ! :smile:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The internship and the work culture&lt;/strong&gt;&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="fluentd" /><category term="cncf" /><summary type="html">Introduction</summary></entry></feed>
+&lt;p&gt;The internship started sometime in May and we were given an introductory session where all the interns set up their laptops and finished some formalities. The next day we were assigned tasks and mentors. We were also told and go to interact with the Sales team so we would get to know about how the sales works. This was really fun because as developers we often do not understand how customers buy our software or how the whole marketing and sales department works !
+The best thing about hackerrank is that there is no hierarchy, we never felt like interns, we were included in every event, discussion and could give our views and opinions freely. Moreover, we had a weekly meeting with Hari where we explained whatever work we did during that week to him AND also to all the other interns. This was really good as we could learn by listening to other interns as well. During the course of the internship, all the interns(10 of us) were put up in a hotel nearby the office. This helped us to foster great friendships and we helped each other grow technically by having many intellectual discussions . You can check out all the interns here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What I learnt during my internship&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The main tech stack of hackerrank is ruby on rails and react. I had already worked on ruby on rails in my previous internship, so I got the opportunity to work on React and Redux. My mentor was Aakansha Doshi, who is a front-end developer. I learnt so much from her, from the basics to best practices, finding test-cases etc. She also gave me feedback at the end of the internship which I am grateful for. I also worked with Shiv Deepak from the Mountain View office. I worked on an interesting DevOps related task with him. This was also a good experience as I had never worked on DevOps before nor had any idea about it. Apart from the technical learning, I also learnt about stand-ups,team work, how to communicate effectively, test driven development, to not be scared to ask for help but also ask for help only when we have tried enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fun times…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from work, we also had a lot of fun in the office. The office has a foosball table, table tennis room as well as XBox. We would play foosball whenever we wanted to take a break, infact on weekends we would come to office just to play ! The office also has a very well stocked pantry :P&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/hr-2.jpeg&quot; alt=&quot;Image-2&quot; /&gt;
+&lt;img src=&quot;https://asquare14.github.io/assets/images/hr-3.jpeg&quot; alt=&quot;Image-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Moreover, Hackerrank has tied up with KidsWhoKode and the office of HackerRank in Koramangala, Bengaluru is transformed into a classroom every friday. Underprivileged students visit to learn to code and are taught by the employees of this tech company. The interns volunteered and took turns to teach the children. Also,the full-time employees go out of their way to teach the children !&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Amazing summer came to an end…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All good things must come to an end and so did this internship. I learnt a lot and made great friendships. I would like to thank everyone at Hackerrank for making this one of the best summers of my life !
+I would like to thank Ishani, Nalini and Kenny from the HR team for taking great care of us , and Hari, Aakansha, Shiv and so many others for the amazing technical experience ! 😄&lt;/p&gt;
+
+&lt;p&gt;P.S — Highly recommend students to apply for an internship. Feel free to reach out to me if you have any questions :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/my-2019-summer-internship-at-hackerrank-bengaluru-8f3163612c3a&quot;&gt;Medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="Internship Experiences" /><summary type="html">I had the opportunity to intern at Hackerrank, Bangalore during the summer of 2019 and in this blog I’d like to tell you about my experience ! For those of you who haven’t heard about Hackerrank, it is the market–leading technical inteview platform to identify and hire developers with the right skills. It also has a community website where you can practice problems, solve challenges and become a better developer. It has offices in Mountain View, London and Bengaluru :)</summary></entry><entry><title type="html">Google Interview Tips + FAQs + Resources</title><link href="http://localhost:4000/google-tips/" rel="alternate" type="text/html" title="Google Interview Tips + FAQs + Resources" /><published>2019-12-19T13:30:00+05:30</published><updated>2019-12-19T13:30:00+05:30</updated><id>http://localhost:4000/google-tips</id><content type="html" xml:base="http://localhost:4000/google-tips/">&lt;p&gt;I will be interning at Google as a SWE Intern in 2020. I often get a lot of questions asking me how to start preparing and how to start coding. Here, I am sharing a few things that I have learnt during my preparation. In this blog post, I have also tried to clear some of the common questions every student has regarding interview preparation. I have also included resources that helped me during my preparation !&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why should you do Leetcode?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have explored many sites and in the end I found leetcode to be the best.&lt;/p&gt;
+
+&lt;p&gt;Sites like CodeChef, Codeforces, SPOJ are really good but they are not interview/job focused, they lean more towards competitive programming. If your aim is to go compete at ACM ICPC, by all means practice at those sites.&lt;/p&gt;
+
+&lt;p&gt;For interview preparation, the top sites are Leetcode, GeeksForGeeks and Interview Bit. Leetcode beats the other two sites handsdown. While the theory in GeeksForGeeks is good (it is often coded inefficienty) and their practice platform has weak testcases. InterviewBit has a good collection of questions but their list is limited, also they do not have a vibrant community.&lt;/p&gt;
+
+&lt;p&gt;Leetcode has everything that a good site should, amazing list of questions, good editorials, really good testcases as well as a &lt;strong&gt;community&lt;/strong&gt;(best thing). The discuss section has amazing discussions, sometimes the solutions here are better than those in the editorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I am intimidated by the list of questions, where should I start ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First and foremost, there is no reason to be intimidated, we all have to start somewhere :) 
+If you are a complete beginner, start with &lt;a href=&quot;https://leetcode.com/problemset/top-100-liked-questions/&quot;&gt;Top 100 Liked Questions&lt;/a&gt; and &lt;a href=&quot;https://leetcode.com/problemset/top-interview-questions/&quot;&gt;Top Interview Questions&lt;/a&gt;. Sort them by difficulty level and do the easy ones, followed by medium and then hard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How should I solve each question ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Everyone has a different way of approaching problems, I initially looked up the solution to every problem but when I gave the Weekly Contests(another amazing feature! more about it later) I realized my technique wasn’t working. I then thought about a question and worked out a basic algorithm and then coded. If it took more than a certain amount of time, I saw the solution.&lt;/p&gt;
+
+&lt;p&gt;Here is a curated list of “how to leetcode” from various people, do give it a read ! It is helpful :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/6luszf/a_leetcode_grinding_guide/&quot;&gt;Leetcode Grinding Guide.Reddit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@sourabreddy&quot;&gt;Patterns on Leetcode Problems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/algorithms-and-leetcode/want-to-crack-leetcode-problems-easily-dc825e27e423&quot;&gt;Want to crack Leetcode problems easily ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/bc85gv/i_have_to_literally_lookup_up_every_leetcode/?utm_medium=android_app&amp;amp;utm_source=share](https://www.reddit.com/r/cscareerquestions/comments/bc85gv/i_have_to_literally_lookup_up_every_leetcode/?utm_medium=android_app&amp;amp;utm_source=share)&quot;&gt;r/cscareerquestions - I have to literally lookup up every leetcode solution. Is it normal?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/discuss/general-discussion/443629/how-to-leetcode-effectively&quot;&gt;how-to-leetcode-effectively&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How do I measure my performance, I am solving questions but am I improving ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ONE WORD - WEEKLY CONTESTS.
+Initially when I started giving weekly contests I would not be able to solve even a single question,but with practice I started solving two to three. It motivated me to work harder every week and manage time better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How “MANY” questions should I solve ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It is not about the number of questions rather it is about “how” well you understand the concepts and are able to approach new problems. Inspite of that, doing the Top Interview Questions should be a must.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other tips&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read as many interview experiences of people as you can from Leetcode Discuss.&lt;/li&gt;
+  &lt;li&gt;Ask doubts in Leetcode Discuss for each question.&lt;/li&gt;
+  &lt;li&gt;If your interview is nearing, take Leetcode Premium and do company wise questions (very helpful).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What are the important topics I should study ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Big O Notation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web.mit.edu/16.070/www/lecture/big_o.pdf&quot;&gt;Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Practice problems from Cracking the Coding Interview&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Arrays and Maths&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Practice a lot of Questions on Arrays and Maths. Some important topics are mentioned below.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/next-greater-element-ii/discuss/98262/typical-ways-to-solve-circular-array-problems-java-solution&quot;&gt;Circular Arrays - Typical ways to solve on Leetocode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration&quot;&gt;Boyer Moore Voting Algorithm Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/two-sum/&quot;&gt;Two Sum Problem - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/3sum/&quot;&gt;Three Sum Problem - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/4sum/&quot;&gt;Four Sum Problem - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock/&quot;&gt;Buy and Stock problem - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/&quot;&gt;Buy and Stock problem II - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/&quot;&gt;Buy and Stock problem III - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/&quot;&gt;Buy and Stock problem IV - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/&quot;&gt;Buy and Stock With Cooldown - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Questions relating to Palindromes.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/longest-palindromic-subsequence/&quot;&gt;Longest Palindromic Subsequence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/sqrtx/&quot;&gt;Finding square root of a number in logn time - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subarray and Subsequence problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Binary Search&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.topcoder.com/community/competitive-programming/tutorials/binary-search&quot;&gt;Binary Search from Topcoder(MUST)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bitwise manipulation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently&quot;&gt;A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bitwisecmd.com/&quot;&gt;Good website to visualize bitwise operations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/bits-manipulation-important-tactics/&quot;&gt;https://www.geeksforgeeks.org/bits-manipulation-important-tactics/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Trees&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/binary-tree-preorder-traversal/&quot;&gt;Pre-order(BOTH recursive and iterative)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/binary-tree-postorder-traversal/&quot;&gt;Post-order(BOTH recursive and iterative&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/binary-tree-inorder-traversal/&quot;&gt;In-order(BOTH recursive and iterative&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/n-ary-tree-preorder-traversal/&quot;&gt;N-ary Tree Pre-order Traversal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/n-ary-tree-postorder-traversal&quot;&gt;N-ary Tree Pre-order Traversal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/n-ary-tree-level-order-traversal&quot;&gt;N-ary Tree Level Order Traversal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/maximum-depth-of-n-ary-tree&quot;&gt;Maximum Depth of N-ary Tree    &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/&quot;&gt;Serialization and deserialization of trees - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Binary Search Tree&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/&quot;&gt;Lowest Common Ancestor - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Morris In-order traversal by Tushar Roy (Video)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://algorithms.tutorialhorizon.com/introduction-to-threaded-binary-tree/&quot;&gt;Threaded Binary Tree&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Recursion and Backtracking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/&quot;&gt;Recursion and Backtracking Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26?source=---------6------------------&quot;&gt;Blog by csgator(BEST)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.interviewbit.com/courses/programming/topics/backtracking/&quot;&gt;Interview Bit Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Turnpike problem&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/word-break/&quot;&gt;Word break Problem Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/word-break-ii/&quot;&gt;Word break Problem 2 Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/letter-combinations-of-a-phone-number/&quot;&gt;Letter combinations of a phone-number Leetcode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Graphs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs&quot;&gt;Representing graphs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353&quot;&gt;DFS, BFS Explanation by csgator(BEST)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Topological Sorting&lt;/li&gt;
+  &lt;li&gt;Prims and Kruskal&lt;/li&gt;
+  &lt;li&gt;Dijikstra&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cp-algorithms.com/graph/dijkstra_sparse.html&quot;&gt;Dijkstra on sparse graphs - Competitive Programming Algorithms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/number-of-islands/&quot;&gt;Number of Islands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/friend-circles/&quot;&gt;Friend Circles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/decode-string/&quot;&gt;Decode String&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Geometry&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/geometric-algorithms/&quot;&gt;Geometric Algorithms - GeeksforGeeks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hashing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/map-vs-unordered_map-c/&quot;&gt;map vs unordered_map in C++ - GeeksforGeeks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/design-hashmap/&quot;&gt;Design HashMap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/design-hashset/&quot;&gt;Design Hashset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem&quot;&gt;Sliding Window algorithm template to solve all the Leetcode substring search problem. - LeetCode Discuss (This is important !)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cp-algorithms.com/string/string-hashing.html&quot;&gt;String Hashing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Linked List&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Insertion&lt;/li&gt;
+  &lt;li&gt;Deletion of Node&lt;/li&gt;
+  &lt;li&gt;Reverse Linked List (iterative and recursive)&lt;/li&gt;
+  &lt;li&gt;Circular Linked List&lt;/li&gt;
+  &lt;li&gt;Doubly Linked List&lt;/li&gt;
+  &lt;li&gt;Floyd’s Cycle Detection Algorithm&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/linked-list-cycle-ii/&quot;&gt;Linked List Cycle - Leetcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bhrigu.me/blog/2017/01/22/lru-cache-c-plus-plus-implementation/&quot;&gt;LRU Cache - C++ Implementation - Bhrigu Srivastava&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/copy-list-with-random-pointer/&quot;&gt;Copy list with random-pointer (BEAUTIFUL QUESTION!)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dynamic Programming&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/&quot;&gt;TopCoder Article (VERY IMPORTANT!!! MUST)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/&quot;&gt;Top 20 DP questions(Geeks for geeks) Important!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&quot;&gt;Tushar Roy DP playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Do Questions from Interview Bit (Good List) :P&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3&quot;&gt;Top 50 DP questions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming&quot;&gt;Difference between DP and Divide and Conquer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Disjoint Set Union&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cp-algorithms.com/data_structures/disjoint_set_union.html&quot;&gt;DSU CP-Algorithm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sorting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be clear with the basic algorithm and time complexity of all sorting algorithms.&lt;/li&gt;
+  &lt;li&gt;Additionally read up count sort, bucket sort and radix sort.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Greedy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/&quot;&gt;Basics of Greedy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;System Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/discuss/interview-question/system-design?currentPage=1&amp;amp;orderBy=hot&amp;amp;query=&quot;&gt;Leetcode System Design Posts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&quot;&gt;System Design Videos (Sufficient for prep)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tiancao.me/blog/2016/02/system-design/&quot;&gt;System Design Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26&quot;&gt;How to succeed in a System Design Interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For now these are the topics that I feel are important for interview, obviously this is not a exhaustive list :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Interview Tips&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Practice coding on google docs.&lt;/li&gt;
+  &lt;li&gt;Write variable and function names that are descriptive.&lt;/li&gt;
+  &lt;li&gt;Be honest. Do not bluff.&lt;/li&gt;
+  &lt;li&gt;Be vocal, explain your approach while coding.&lt;/li&gt;
+  &lt;li&gt;Give a lot of mock interviews to friends in real environment.&lt;/li&gt;
+  &lt;li&gt;Do a lot of leetcode.&lt;/li&gt;
+  &lt;li&gt;Be confident !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope this blog post helped you ! All the best ! Feel free to post any questions :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://leetcode.com/discuss/career/449744/google-interview-tips-faqs-answered-resources&quot;&gt;Leetcode&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="Internship Experiences" /><summary type="html">I will be interning at Google as a SWE Intern in 2020. I often get a lot of questions asking me how to start preparing and how to start coding. Here, I am sharing a few things that I have learnt during my preparation. In this blog post, I have also tried to clear some of the common questions every student has regarding interview preparation. I have also included resources that helped me during my preparation !</summary></entry><entry><title type="html">My experience at Open Source Summit Japan 2019</title><link href="http://localhost:4000/oss-japan/" rel="alternate" type="text/html" title="My experience at Open Source Summit Japan 2019" /><published>2019-07-18T13:30:00+05:30</published><updated>2019-07-18T13:30:00+05:30</updated><id>http://localhost:4000/oss-japan</id><content type="html" xml:base="http://localhost:4000/oss-japan/">&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-1.jpeg&quot; alt=&quot;Image-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have been involved in Open Source since the past two years and have always wanted to attend an international conference relating to the same because attending conferences teaches us about the latest technology, allows us to network with people from different parts of the world as well as gives us an opportunity to collaborate with others.
+In February I applied for a Diversity Scholarship and Travel Grant to OSS Japan through the &lt;strong&gt;Linux Foundation&lt;/strong&gt;. I got the acceptance for the Diversity Scholarship within a week and was really happy. However, I knew I would not be able to afford to go if I was not awarded the Travel Grant. A month later, I was over the moon when I got a mail saying that I had been awarded the travel grant. It meant I could finally attend my first international conference ! *(&lt;strong&gt;Tip&lt;/strong&gt;: Always apply super-early so that you have enough time to get your VISAs and book tickets. Often VISA’s take over two weeks!)
+*&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-2.jpeg&quot; alt=&quot;Image-2&quot; /&gt;
+&lt;em&gt;View from the conference Hall&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AMAZING SPEAKERS AND TALKS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The conference was held at Toranomon Hills Forum in Tokyo. When I registered at the Venue I was given a beautiful T-shirt and attendee badge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-3.jpeg&quot; alt=&quot;Image-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I then went to attend the talks. &lt;em&gt;(Tip: Since lots of talks will be taking part in parallel, download the Sched app a day or two before the conference and plan your schedule beforehand so that you don’t waste time figuring out which talk to attend.)&lt;/em&gt; Here are some of the talks that really stood out for me.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Almost all the keynotes, especially Urban Computing with Kepler.gl by Travis Gorkin. In this talk, he explained the core concepts, tools, and methodologies for Urban Computing, and demonstrated how they can be used to create solutions that improve the urban environment. It was something totally new for me and I would recommend you to check out keplergl.&lt;/li&gt;
+  &lt;li&gt;How to Use Linux in Long Term by Tsugikazu Shibata where he talked about LTS for Linux, stable releases as well as kernel development statistics, community governance etc.&lt;/li&gt;
+  &lt;li&gt;Trusted AI by Patricia Ferreiro. This talk was of special interest to me because I had researched on the very same topic last semester and it was refreshing to hear her views. Her talk was very well structured and dealt with fairness, robustness against malicious attacks and accountability of AI. Her slides can be found here.&lt;/li&gt;
+  &lt;li&gt;The Untold Story Behind Creating an Open Source Program Office by Brian Hsieh from Uber. He shared his observations and takeaways from building an open source team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-4.jpeg&quot; alt=&quot;Image-4&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kernel Documentation: What We Have and Where We’re Going by Jonathan Corbet.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(How to) Be a Good Citizen in Open-Source Documentation by Robert Kratky. He talked about best practices for writing and maintaining docs as well as the importance of writing them.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There were so many other talks that were awesome, but I think mentioning them all will make this blog too technical and lengthy. 😶&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Tip: Always carry a small notepad with you and note down key takeaways from a talk, it helps you later on if you want to study about the topic.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THE COOL SPONSOR SHOWCASE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Almost every conference has a section where sponsors showcase their latest products/ advances in technology. Attending this is a great way to meet new people from different companies, learn about the latest technologies as well as collect some free swag 😏&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Tip: Try talking to the people at the booths to know about their company culture as well as job opportunities.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One cool project by RedHat was that they were running a Fedora system on Nintendo ! Another cool thing I learnt was about kata containers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-5.jpeg&quot; alt=&quot;Image-5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NETWORKING AND MAKING NEW FRIENDS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Conferences are THE best place to meet like minded people.😄 I had the opportunity to attend a Women In Open Source Lunch where I got to meet women at different points in their career, talked to them about their struggles, aspirations and also got some valuable advice for my future. The networking session organized by the conference organizers was also a good place to network. I made many friends from all over the world.
+Apart from the networking session, the conference also had a job board.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Tip: If you are looking for jobs, make sure to keep a few copies of your resume handy and go and talk to the job posters. Introduce yourself and tell them you would be applying later ! )&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/japan-6.jpeg&quot; alt=&quot;Image-6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thank you Linux Foundation 💛&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I learnt so much and had lots of fun at the conference. This would not have been possible without Linux Foundation and I thank it from the bottom of my heart for giving me this opportunity. Special thanks to Jacynth Roberts for being so helpful and clearing all my queries. Looking forward to contributing more to Open Source and attending/(possibly speaking ?!) future Open Source Summits.
+Sayonara 🏯&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/my-experience-at-open-source-summit-japan-2019-f73587de4bce&quot;&gt;medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="My experience at various conferences" /><summary type="html"></summary></entry><entry><title type="html">Mentoring others in Open Source</title><link href="http://localhost:4000/mentoring/" rel="alternate" type="text/html" title="Mentoring others in Open Source" /><published>2019-07-11T13:30:00+05:30</published><updated>2019-07-11T13:30:00+05:30</updated><id>http://localhost:4000/mentoring</id><content type="html" xml:base="http://localhost:4000/mentoring/">&lt;p&gt;A year ago I and my teammate were fortunate enough to be selected as one of the 7 full-time teams for Rails Girls Summer of Code Scholar(RGSoC) ❤️. This was my first experience with Open Source programs. In the application form for RGSoC, there was a question :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What do you think you could give back to the community?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I aspire to become a mentor or coach in the next edition of RGSoC. Apart from this, I love teaching and believe that knowledge grows by sharing. I will also apply as a mentor next year in Google Code In as well as Learn It Girl. (A small snippet of my answer. )&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During the course of RGSoC, I had the opportunity to work for if-me.org. It is an open source app to share mental health experiences with loved ones. A few things about if-me that I really like is the level of coding standards(extremely well written code with test coverage), the detailed documentation, well-labeled issues on Github, Internationalization(i18n) and the helpful slack community. 💛 Their codebase is in Ruby on Rails and React. If you are looking to learn these two languages or want to get started with Open Source, if-me would be a good place. It is an amazing organisation with awesome mentors. Julia, Camille and Alvaro were our mentors. What I learnt from them helped me grow enormously as a person and developer. There were lots of pair-programming sessions 👭, detailed outlines of tasks 📃, discussions regarding tech stack 💻, doubt clearing sessions etc. I look up to them till date and have tried incorporating whatever they taught me while mentoring others.
+The first open source program that I mentored for was Google Code-In(GCI). I was a mentor for plots2 project by public labs. Public Lab is a community where they seek to change how people see the world in environmental 🌳, social, and political terms. plots2 contains the code for their website. The project is in Ruby on Rails, HTML and CSS. It was really good to mentor young GCI students, the amount of knowledge that they have at such a young age was inspiring. I am presently also mentoring for the same project as Google Summer of Code Mentor 2019. I have learnt a lot from this project, by reviewing Pull Requests I learnt about frontend, building rails features etc. I have also learnt the importance of proper labels on Github issues, templates for Pull Requests etc. I also often refer to their codebase when I am stuck with something on an entirely different rails project. If you are a first-timer, you should definitely contribute to public labs !&lt;/p&gt;
+
+&lt;p&gt;Apart from public labs I was a mentor for project Cosmos by Open Genus Foundation during GirlScript Summer of Code. Cosmos is a personal library 📚of every algorithm and data structure code that you will ever encounter. Contributing and mentoring for this project helped me sharpen my Data Structures and Algorithmic knowledge. I wrote code on Job Scheduling Algorithms as well as reviewed code on a variety of topics ranging from simple while loops to complex coding topics like Dynamic Programming, String matching etc. During the course of GirlScript Summer of Code I really appreciated that the organising team kept track of what the mentors did every week. This ensured that every mentor was contributing regularly. 🙌&lt;/p&gt;
+
+&lt;p&gt;I was also a mentor for LearnIt girl. I was matched with a mentee based on my technical skills. My job was to guide her to build a shopping portal in ruby on rails. However, my mentee went off the grid after a couple of weeks and I have no idea what happened. I really loved the concept of LearnIt girl but I do wish that there was more accountability and the organising team was more involved. 😃&lt;/p&gt;
+
+&lt;p&gt;Often, students want to participate in Open Source Programs as they will get to learn a lot but don’t want to mentor as often. It is definitely good to participate in open source programs because unless you’ve been a participant you won’t know what is expected of a mentor. However, if you’ve already been a participant for an Open Source Program, I would highly recommend you to mentor others. You will learn a lot as well as get an opportunity to impact those starting out in open source. ❤️
+Happy Mentoring !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/a-year-of-mentoring-others-in-open-source-b1e683b830a&quot;&gt;medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="Open Source" /><summary type="html">A year ago I and my teammate were fortunate enough to be selected as one of the 7 full-time teams for Rails Girls Summer of Code Scholar(RGSoC) ❤️. This was my first experience with Open Source programs. In the application form for RGSoC, there was a question :</summary></entry><entry><title type="html">Kubernetes Day India 2019</title><link href="http://localhost:4000/k8s-day-india/" rel="alternate" type="text/html" title="Kubernetes Day India 2019" /><published>2019-06-14T13:30:00+05:30</published><updated>2019-06-14T13:30:00+05:30</updated><id>http://localhost:4000/k8s-day-india</id><content type="html" xml:base="http://localhost:4000/k8s-day-india/">&lt;p&gt;I had been hearing the buzzword &lt;em&gt;Kubernetes and cloud computing&lt;/em&gt; for a long time but I had no idea what it was. One day my senior Rajula Vineet Reddy posted on our college’s Facebook group that Kubernetes Day India was being held in Infosys Campus, Bengaluru. Infosys Campus is right opposite our college IIIT Bangalore and this seemed like a good opportunity to get know about Kubernetes. I applied for a diversity ticket and was very happy when I got it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/k1.jpeg&quot; alt=&quot;Image-1&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-day-of-the-conference-23-march&quot;&gt;THE DAY OF THE CONFERENCE, 23 March&lt;/h4&gt;
+
+&lt;p&gt;I went to the Infosys Campus at 9:00 am. I registered for the conference, got my badge and picked up my T-shirt. Then, I had breakfast and went to attend the KeyNote by Liz Rice.&lt;/p&gt;
+
+&lt;p&gt;She talked about how permissions work in Kubernetes and of how we can think of Kubernetes as a distributed operating system. She drew analogies with the Linux Operating System and this helped us to understand the topic better. Her talk was beginner friendly and truly one of the best keynotes I have ever attended.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/k2.jpeg&quot; alt=&quot;I2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next few talks were all beginner friendly and helped me to get to know about Kubernetes. Most of the advanced talks were during the later half.
+Two talks that I found really helpful were &lt;strong&gt;Noobernetes 101: Top 10 Questions We Get From New K8s Users&lt;/strong&gt; by Neependra Khare, CloudYuga Technologies &amp;amp; Karthik Gaekwad from Oracle and &lt;strong&gt;How to Contribute to Kubernetes&lt;/strong&gt; by Nikhita Raghunath from Loodse.&lt;/p&gt;
+
+&lt;p&gt;In “Noobernetes 101” Neependra and Karthik covered some faqs like&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What kind of services should we use for our applications?&lt;/li&gt;
+  &lt;li&gt;How can we do capacity planning in K8s?&lt;/li&gt;
+  &lt;li&gt;Why there is a high learning curve in K8s? Isn’t K8s too complicated?&lt;/li&gt;
+  &lt;li&gt;What is the best way to set a development environment with K8s? etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Nikhita’s talk “How to Contribute to Kubernetes” she talked about getting started with contributing to Kubernetes. She told us about the different parts of Kubernetes and how they work, how the various components are related, the skills we need to get started and learn the best ways to get our first Pull Request accepted. She also talked about her Google Summer of Code experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/k3.jpeg&quot; alt=&quot;Image-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from the talks the sponsor companies had booths in the conference venue where they were sharing information about the services they offer, openings in their companies as well as giving out swag if we answered questions about their APIs. It was a great networking opportunity and I went to almost every booth.
+My experience at Kubernetes Day India was memorable. I made lots of new friends, learnt so much about something totally new to me and in the process got a lot of swag. If you’re reading this, I highly recommend you to attend any event by CNCF and Kubernetes. It is an amazing community ❤&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/k4.jpeg&quot; alt=&quot;Image-4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/my-experience-at-kubernetes-day-india-2019-deaa34c2b650&quot;&gt;medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="My experience at various conferences" /><summary type="html">I had been hearing the buzzword Kubernetes and cloud computing for a long time but I had no idea what it was. One day my senior Rajula Vineet Reddy posted on our college’s Facebook group that Kubernetes Day India was being held in Infosys Campus, Bengaluru. Infosys Campus is right opposite our college IIIT Bangalore and this seemed like a good opportunity to get know about Kubernetes. I applied for a diversity ticket and was very happy when I got it.</summary></entry><entry><title type="html">Attending Grace Hopper India Conference 2018</title><link href="http://localhost:4000/ghci/" rel="alternate" type="text/html" title="Attending Grace Hopper India Conference 2018" /><published>2018-12-01T13:30:00+05:30</published><updated>2018-12-01T13:30:00+05:30</updated><id>http://localhost:4000/ghci</id><content type="html" xml:base="http://localhost:4000/ghci/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;GHC or Grace Hopper Celebration of Women&lt;/em&gt;&lt;/strong&gt; in Computing is the world’s largest gathering of women technologists. It is held in the USA and India every year.
+I had always wanted to attend it but never got an opportunity. Then came the Women In Tech Learning Program by Rethink Foundation. Arya Murali, the program lead told us that based on the performance and the GHCI application form, five girls would be getting the scholarship to attend GHCI.
+Imagine my surprise, when I got a mail on 11 November saying that I was one of those five! I was super excited and happy :)&lt;/p&gt;
+
+&lt;h4 id=&quot;day-1-14th-november-keynote-and-networking&quot;&gt;Day 1 (14th November)— Keynote and Networking&lt;/h4&gt;
+&lt;p&gt;I went to the conference with my senior Pratheeksha Nair, who was awarded the Anita Borg scholarship to attend the same. My first reaction at the conference was “Oh my God! So many women 😍. I already love this conference.”We got our registrations done and were pleasantly surprised to find a backpack full of goodies!
+Day one included Keynote Speeches by Lori Beer and Vaishali Kasture.
+Lori Beer is the CIO of JP Morgan. She told us to create our own brand. We often underplay our success and attribute it to “luck”. We should be Bold, Confident and Brave. According to her, authenticity, humility and ambition are very important in a person. She suggested listening to tech podcasts, reading up on the current technological news to stay up-to-date. Finally, she said, “Believe in Yourself.”
+Vaishali Kasture, who is the co-founder of SonderConnect gave valuable advice too. She emphasised on the art of negotiation, perfecting one’s elevator pitch and how networking is very very important. She also talked about Fitness and how being fit is very important. She says finding our interest and pursuing it is the most important thing. 😃&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/ghc.jpeg&quot; alt=&quot;GHCI&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;day-215th-novembertechnical-talks-and-speed-mentoring&quot;&gt;Day 2(15th November)—Technical talks and Speed Mentoring&lt;/h4&gt;
+&lt;p&gt;I was very excited for Day 2 because it meant I could attend exciting talks about cutting edge technology. I sat in the AI, Machine Learning Track and High-Performance Computing Track till lunchtime. Some of the papers that were presented are “Gender Stereotyping in Bollywood Movies”, “Understanding how a Kalman Filter Works”, “ How the Brain Interprets Content — Latest Advancement in Natural Language Understanding” etc.
+After this, I went for the speed mentoring session. On the way to this session, I met Arya and my fellow scholars from the WIT learning program. It was amazing to finally meet them.
+At the speed mentoring, a bunch of us were made to sit at round tables. We were assigned a mentor (an experienced career woman) for fifteen minutes. They kept rotating after fifteen minutes. So, in an hour we had 4 women mentor us. We asked them lots of question and got all our doubts cleared. This session was the highlight of GHCI for me because I could interact with them on a personal level.
+Next, I headed to the career fair where I started going to booths and gave my resume to the HRs. I couldn’t cover a lot of stalls as it was getting late. I decided to come to the career fair first thing on Day 3.&lt;/p&gt;
+&lt;h4 id=&quot;day-316th-november--career-fair&quot;&gt;Day 3(16th November) — Career Fair&lt;/h4&gt;
+&lt;p&gt;I came to the career fair around 9 am. I covered every stall by lunchtime and made lots of new connections, had handed out my resume to lots of people and learnt a lot. After lunch, I roamed around a bit and played games at the booths so that I could collect goodies. 😜
+Soon, it was time to leave. GHCI 2018 had ended. I left with a bag full of memories and goodies (literally!). I am looking forward to GHCI 2019.&lt;/p&gt;
+
+&lt;h4 id=&quot;tips-for-students-looking-to-go-to-ghci-in-the-future&quot;&gt;Tips for students looking to go to GHCI in the future&lt;/h4&gt;
+&lt;p&gt;Dressing up in formals is not necessary. That doesn’t mean you can wear a T-shirt and shorts or pyjamas. Wear a formal dress, jeans and a formal looking top, salwar kurta and of course proper formals works fine.
+Carry hard-copies of your resumes. Around 10–15. Not more than that!
+Collecting Goodies should not be your main focus. Make connections, network and talk to people. You will learn a lot!
+Have an introduction pitch ready. It should be brief, should cover your experiences, achievements and make you stand out.
+Last but not the least have lots of fun 😄
+I will be forever thankful to Rethink Foundation for giving me this opportunity.❤️&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/my-experience-at-ghci-2018-9e51172b8c1&quot;&gt;Medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="My experience at various conferences" /><summary type="html">GHC or Grace Hopper Celebration of Women in Computing is the world’s largest gathering of women technologists. It is held in the USA and India every year. I had always wanted to attend it but never got an opportunity. Then came the Women In Tech Learning Program by Rethink Foundation. Arya Murali, the program lead told us that based on the performance and the GHCI application form, five girls would be getting the scholarship to attend GHCI. Imagine my surprise, when I got a mail on 11 November saying that I was one of those five! I was super excited and happy :)</summary></entry><entry><title type="html">What we learnt and accomplished during RGSoC</title><link href="http://localhost:4000/End-of-RGSOC/" rel="alternate" type="text/html" title="What we learnt and accomplished during RGSoC" /><published>2018-09-01T13:30:00+05:30</published><updated>2018-09-01T13:30:00+05:30</updated><id>http://localhost:4000/End-of-RGSOC</id><content type="html" xml:base="http://localhost:4000/End-of-RGSOC/">&lt;h2 id=&quot;our-happy-ending---all-things-must-come-to-an-end-but-every-end-becomes-a-new-beginning&quot;&gt;&lt;strong&gt;&lt;em&gt;Our Happy Ending - All things must come to an end, but every end becomes a new beginning.&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;We cannot believe that it’s September and RGSoC is ending soon. It seems like just yesterday, we were prepping up our application forms !&lt;/p&gt;
+
+&lt;h3 id=&quot;our-experience&quot;&gt;&lt;strong&gt;Our Experience&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;We were asked the following question in our application forms &lt;em&gt;“Why are you applying to RGSoC ? What would you like to achieve by the end of the summer ?“&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a short excerpt from our answer as the actual answers are too long.&lt;/p&gt;
+
+&lt;p&gt;“We want to improve our ability to understand a large codebase and become better developers. We want to become confident individuals who can manage their time effectively. Through RGSoC we want to meet women who have broken norms and set standards to come together and change pre-conceived notions. We want to make new friends from all over the world with whom we can share ideas and get insights on our code !”&lt;/p&gt;
+
+&lt;p&gt;As we looked back at the summer, we asked ourselves, “Did we achieve any of that ? “
+The answer is a big YES. We achieved all that and a lot more than we had hoped for ! :)&lt;/p&gt;
+
+&lt;h3 id=&quot;things-we-learnt&quot;&gt;&lt;strong&gt;Things we learnt&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Test Driven Development&lt;/strong&gt; - Indians have this term “Jugaad”, roughly translated “jugaad” is a hack or a workaround. Before RGSoC, we used a lot of “jugaad” to make our codes work. Through RGSoC, we learnt to write proper, optimized, linted code that had to adhere to certain standards. We refactored our code many times and no longer use “jugaad”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Collaborating&lt;/strong&gt; - Lots and lots of pair programming sessions ! We have learnt many techniques and strategies by watching our mentors code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Code Reviews&lt;/strong&gt; - We learnt how to work on code reviews and also how to review others’ code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - Git is awesome. We had to close a PR because our commit history was unclean. Ever since, we have started squashing commits and writing proper commit messages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Time management&lt;/strong&gt; -  Juggling University with RGSoC wasn’t easy. We learnt how to utilise our time wisely. These three months meant less outings, less Netflix and chill, but it was totally worth it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt; - Ruby on Rails, ReactJS, Enzyme, Jest, RSpec, Capybara.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;challenges-we-faced&quot;&gt;&lt;strong&gt;Challenges we faced&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;We were completely new to test-driven development and we initially used to write code that worked just fine. When the CircleCi tests would fail continuously, we realized that we had to write clean, efficient code and also write tests before pushing the code.&lt;/p&gt;
+
+&lt;p&gt;Initially we used to think our doubts and errors were silly, and that we would be judged for asking such simple questions to our coaches or mentors. Slowly, we learnt that no question is silly, and asking saves a lot of time.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-have-achieved&quot;&gt;&lt;strong&gt;What we have achieved?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;1000+ lines of code written!&lt;br /&gt;
+14 Pull Requests submitted, 8 merged, 4 in progress! &lt;br /&gt;
+23 issues created (for further enhancement of if-me)!&lt;br /&gt;
+7 Pair programming sessions!&lt;/p&gt;
+
+&lt;h3 id=&quot;the-friends-we-made&quot;&gt;&lt;strong&gt;The friends we made&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;We met such amazing people. We cannot believe we have friends from Korea, Berlin, Delhi, Africa, Spain etc. The love, positivity and goodwill the RGSoC community fosters is just amazing. Special mention to RGSoC Slack. It is our favourite slack channel :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terrific Thursdays&lt;/strong&gt; - We are going to miss our sweet and adorable supervisor Srishti. We loved chatting with you on Thursdays every week. Thank you for being such a great support during the past three months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If-me community&lt;/strong&gt; - Julia, Alvaro, Camille, we had a blast working with you all. Thank you for all the encouraging words, dealing with our silly doubts and for making us better developers. RGSoC would not have been possible without you all.&lt;/p&gt;
+
+&lt;h3 id=&quot;rgsoc18-in-tweets-&quot;&gt;&lt;strong&gt;RGSoC’18 in Tweets !&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-AlvaroTweet.jpg&quot; alt=&quot;Alvaro's tweet&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;Alvaro's Tweet (Credit: Twitter)&lt;/b&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-JuliaTweet.jpg&quot; alt=&quot;Julia's tweet&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;Julia's Tweet (Credit: Twitter)&lt;/b&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-SrishtiTweet.jpg&quot; alt=&quot;Srishti's tweet&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;Srishti's Tweet (Credit: Twitter)&lt;/b&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-AtibhiTweet.jpg&quot; alt=&quot;Atibhi's tweet&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;Atibhi's Tweet (Credit: Twitter)&lt;/b&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;the-ending-is-only-a-beginning-in-disguise-whats-next-for-us-&quot;&gt;&lt;strong&gt;The ending is only a beginning in disguise. What’s next for us ?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;First and foremost, if-me is amazing and we want to be associated with it for as long as possible. We will continue contributing to it and hopefully become mentors for if-me in the next-edition of RGSoC !
+We were the first team from our college to make it into RGSoC, we want to mentor other girls and encourage them to apply to RGSoC next year. Other than RGSoC, we want to mentor others through programs like LearnIt girl, GSoC etc.
+We also want to use our learning experience to land awesome internships next year and continue to grow as developers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://railsgirlssummerofcode.org/blog/2018-09-30-team-rubies-blog2&quot;&gt;railsgirlssummerofcode.com&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>Atibhi and Prateksha</name></author><category term="blog" /><category term="Internship Experiences" /><summary type="html">Our Happy Ending - All things must come to an end, but every end becomes a new beginning.</summary></entry><entry><title type="html">Introducing Team Rubies - Our Rails Girls Summer of Code Journey</title><link href="http://localhost:4000/RGSoC-Introduction/" rel="alternate" type="text/html" title="Introducing Team Rubies - Our Rails Girls Summer of Code Journey" /><published>2018-06-06T13:30:00+05:30</published><updated>2018-06-06T13:30:00+05:30</updated><id>http://localhost:4000/RGSoC-Introduction</id><content type="html" xml:base="http://localhost:4000/RGSoC-Introduction/">&lt;h3 id=&quot;the-journey-of-a-thousand-miles-begins-with-one-step--our-journey-to-becoming-rails-girls-soc-scholars-2018&quot;&gt;&lt;strong&gt;The Journey of a Thousand Miles Begins with One Step : Our journey to becoming Rails Girls SoC Scholars 2018&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Atibhi had just started learning Ruby on Rails and was googling some random error, when Google redirected her to the official page of Rails Girls Summer of Code.
+She started reading up on it. The more she read, the more convinced she became that she had to apply to this program !&lt;/p&gt;
+
+&lt;p&gt;The next step was finding a teammate. She messaged a few people and Prateksha seemed the most interested ! She was her immediate junior in college and was enthusiastic about exploring new avenues.&lt;/p&gt;
+
+&lt;p&gt;Together they embarked on the journey of becoming RGSoC 2018 scholars.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies.jpeg&quot; alt=&quot;TeamRub&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Atibhi &amp;amp; Prateksha&lt;/strong&gt; - They are enthusiastic Electronics and Communication Engineering undergraduates from IIIT Bangalore, India. They are working on if-me this summer which is a community for mental health experiences.&lt;/p&gt;
+
+&lt;p&gt;Whenever life gets serious, they watch FRIENDS to let their hair down. They want to dress like Rachel, eat like Joey, joke like Chandler, love like Ross, organize like Monica and run like Phoebe. :stuck_out_tongue:&lt;/p&gt;
+
+&lt;p&gt;Atibhi is a 3rd year Undergrad student who thinks she is Monica Geller’s real life version. She has lost over 30kgs and can be found reading or coding if she is not worrying about how to become fitter. She is happiest when travelling. She makes sure she knows the historical background of a new place before she visits it and can spend her nights at museums.
+An electronics student by day and open source contributor at night, she hopes to someday combine her love for hardware and software !&lt;/p&gt;
+
+&lt;p&gt;Prateksha is a 2nd year Undergrad student, who can be found humming a tune or dancing to one if she isn’t coding. Solving algorithms keeps her engaged in her free time. She loves shopping and exploring new places. She enjoys meeting new people and interacting with them. It amuses her to know about different cultures and ideologies. Apart from this, she loves organizing and volunteering at events.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-coaches&quot;&gt;&lt;strong&gt;Finding Coaches&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;They had found each other but now they had to find coaches. They found four awesome coaches.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aditya T&lt;/strong&gt; - Aditya is their senior at college. He is specialising in Pattern Recognition and Signal Processing. He is presently an Artificial Intelligence developer for Klarity Law and did his GsoC 2017 with Systers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Athitya&lt;/strong&gt; - To the outside world, he’s a Mechie at IIT,Kharagpur. But, with the help of his friends at IITKGP, he codes. He’s a wizard with Ruby and did his GSoC 2017 at Ruby Foundation. He is interning at Intuit this summer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gaurav&lt;/strong&gt; - Gaurav is their super senior at college who interned at Microsoft this summer. He is a coding enthusiast and a proficient web developer. He works on how Machine Perception can help us reach from Artificial Narrow Intelligence to Artificial General Intelligence. He did his GSoC 2017 at Berkman Centre.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Raounaq&lt;/strong&gt; - Raounaq is a passionate software developer who uses Ruby to express in code what defines him. Apart from coding he played for a football club from Delhi, India. He also likes to travel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Brihi&lt;/strong&gt; - Atibhi’s childhood friend, RGSoC 2017 scholar and a person who loves Code, Coffee and Music. Brihi can work with anything that is associated with Data, Machine Learning, and AI. Even though she isn’t their official coach, RGSoC 2018 wouldn’t have been possible without her. From reviewing their application to jumping with joy when they got selected, she has been their biggest supporter throughout the process !&lt;/p&gt;
+
+&lt;h3 id=&quot;choosing-a-project-and-interacting-with-the-mentors-&quot;&gt;&lt;strong&gt;Choosing a project and interacting with the mentors !&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;They had chosen their project even before the list of official projects had been announced. They were thrilled when their primary choice “if-me” got selected for RGSoC’18.
+They could relate to “if-me” and wanted to contribute to the mental health community. Here is their first contact with Julia, their mentor way before the official list was announced.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-FirstContact.png&quot; alt=&quot;FirstContact&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After this, Julia added them to slack. The slack community was amazing. They had previously worked with Ruby on Rails and wanted to start with ReactJS components in if-me. If-me community helped them learn Javascript and then React. By February,they had submitted their first PR. Yes ! It was in React !
+Apart from the community being so helpful, their mentor Julia had a unique ritual. She would do weekly shout-outs where she would thank people who worked on an issue or helped if-me in any way.
+To know that their contributions were valuable motivated them further.
+Here is how the weekly shout-out looked like !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-WeeklyShoutouts.png&quot; alt=&quot;WeeklyShout-Out&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;Weekly Shout-Out (Credit: Slack-Julia)&lt;/b&gt;&lt;/div&gt;
+
+&lt;p&gt;Moreover, Julia mailed them if-me stickers and a handwritten card !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-StickersAndCard.jpeg&quot; alt=&quot;StickersCard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They had fallen in love with the community and were thankful to be a part of it. Being RGSoC scholars to work for “if-me” was just the cherry on top !&lt;/p&gt;
+
+&lt;h3 id=&quot;best-surprise-of-their-lives-&quot;&gt;&lt;strong&gt;Best surprise of their lives !&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;On 5th April, they got a mail for the first round of interview.This was their first ever interview and they had butterflies in their stomach!
+After the interview, they had their fingers crossed and were eagerly waiting for the results.&lt;/p&gt;
+
+&lt;p&gt;Soon it was the time for results! 17th April was finally here! Both of them were anxious and were continuously checking their mails. At 12:30 AM they received a mail saying that there was another round of interview. :sweat_smile:&lt;/p&gt;
+
+&lt;p&gt;They thought that their first interview wasn’t good enough and this was the final chance for them to redeem themselves.
+By 19th April they had gone through their proposal multiple times and brushed up their technical knowledge. The interview was scheduled to start at 9 PM and they sat nervously in front of their laptops at 8:30 PM. At 9 PM the interview started. Little did they know that this is what RGSoC meant by “interview”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-HappyUs.jpeg&quot; alt=&quot;HappyUs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;… a dream that they had been chasing for over 4 months had finally come true. It was no interview, it was the final results. The RGSoC team told them via live call that they were selected.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-team&quot;&gt;&lt;strong&gt;The Team&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/2018-07-30-TeamRubies-TheTeam.jpeg&quot; alt=&quot;TheTeam&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-credits&quot;&gt;&lt;b&gt;The Team, Left to Right and Top to Bottom: Julia, Srishti, Camille, Prateksha, Atibhi, Aditya, Gaurav, Nishiki, Alvaro, Athitya, Raounaq (Credits: Slack - Julia, Srishti, Nishiki, Alvaro; GitHub - Camille, Athitya; Google Hangouts - Raounaq )&lt;/b&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;mentors&quot;&gt;&lt;strong&gt;&lt;em&gt;Mentors&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Julia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She is the founder of the “if-me”, she started it in 2014 as an undergraduate student. She is a developer and storyteller who loves to be creative in web and mobile development, art, writing, and speaking.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Camille&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Incorrigible humanist and full-stack web developer excited about interdisciplinary collaboration, open source software, and facilitating supportive team environments. She is helping us with Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alvaro&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He is currently a 4th year CS undergrad at the Polytechnic University of Valencia, specifically the branch of Computing and Artificial Intelligence. He has experience in web development, virtual and augmented reality and 3D printing. He is also helping us with Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nishiki&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He’s a web developer aiming to build products that deliver value for good causes. He is helping us with ReactJs.&lt;/p&gt;
+
+&lt;h4 id=&quot;supervisor&quot;&gt;&lt;strong&gt;&lt;em&gt;Supervisor&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Srishti&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An RGSoC’16 alumni, she’s a Product Security Engineer at Citrix. She is also a Graphic Designer,Pianist, Multilingual programmer and an avid book reader. She wants to use her knowledge to make a change.&lt;/p&gt;
+
+&lt;h3 id=&quot;their-goals-for-the-summer-&quot;&gt;&lt;strong&gt;Their goals for the summer !&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;They want make friends from all over the world. They also want to discuss new programming paradigms, gain new insights and knowledge from the open source community.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://railsgirlssummerofcode.org/blog/2018-07-30-introducing-team-rubies&quot;&gt;railsgirlssummerofcode.com&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[You can also read our interview with Julia, the founder of if-me.org &lt;a href=&quot;https://medium.com/ifme/meet-atibhi-and-prateksha-our-rails-summer-of-code-students-f3c2f0742ead&quot;&gt;here&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>Atibhi and Prateksha</name></author><category term="blog" /><category term="Internship Experiences" /><summary type="html">The Journey of a Thousand Miles Begins with One Step : Our journey to becoming Rails Girls SoC Scholars 2018</summary></entry><entry><title type="html">My Summer Internship at IISc, Bengaluru</title><link href="http://localhost:4000/My-Summer-Internship-at-IISC/" rel="alternate" type="text/html" title="My Summer Internship at IISc, Bengaluru" /><published>2018-05-05T13:30:00+05:30</published><updated>2018-05-05T13:30:00+05:30</updated><id>http://localhost:4000/My-Summer-Internship-at-IISC</id><content type="html" xml:base="http://localhost:4000/My-Summer-Internship-at-IISC/">&lt;p&gt;This summer I had the opportunity to intern at Department of Electronic Systems Engineering at IISc under Prof. Mayank Srivastava. In this post, I am going to write about my internship experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/iisc-1.jpeg&quot; alt=&quot;IISc Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;may&quot;&gt;MAY&lt;/h4&gt;
+&lt;p&gt;On my first day of internship, I nervously came to the department and was overwhelmed by the size of the labs and buildings. I met my PhD mentor Harsha Ma’am and Abhishek Sir, and they assigned me a problem statement.
+My problem statement was to implement the software setup of low frequency noise measurement after understanding the hardware setup.
+I couldn’t make any sense of it. I would sit quietly in a corner of the lab and read research papers in hopes of understanding a few things. I was scared to ask for help, what if they thought I was dumb and kicked me out ? Slowly, I became friends with the other interns and we started asking doubts to each other. The PhD students of Mayank Sir’s lab were very friendly and introduced themselves.
+Nanosceinces LabThey gave us a tour of the Nanosciences lab ! Trust me, I felt like I was transported to a different universe. The lab seemed right out of a Sci-Fi movie.
+They also told us that we could ask them for help whenever needed. The true learning started after that, I would mail my PhD mentors all my doubts and get instant replies. I now knew that I was free to explore and whatever bumps I ran into, my PhD mentors would be there to help me. With new vigour, I started digging deeper into the topics.&lt;/p&gt;
+
+&lt;h4 id=&quot;june&quot;&gt;JUNE&lt;/h4&gt;
+&lt;p&gt;The month of May passed. Apart from working on my problem statement, I learnt a lot from the people around me.
+My friend was working on FINFETs, he and I would discuss about our problem statements. For the months of May and June, all we talked about was Graphene, FINFETs, Low Frequency Noise etc. There was a week when the M.Tech students of IISc had their final presentations, we interns would attend every single one and listen carefully. We would also wander into random departments(where we weren’t allowed) and beg the guard to let us see the labs. We actually went to the Animal Facility and learnt about the research being carried out on Monkeys. We also asked every single PhD student to explain what they were working on !
+Time was passing, my internship was coming to an end and I still hadn’t solved my problem statement. Even though I hadn’t solved my problem , I had done a couple of other things.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read many research papers.&lt;/li&gt;
+  &lt;li&gt;Gone through the Semi-Conductor course of Prof. Karmakar.&lt;/li&gt;
+  &lt;li&gt;Learnt LabView.&lt;/li&gt;
+  &lt;li&gt;Tried a LOT of libraries, languages and contacted people but failed to implement the software setup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I was losing hope and there were only two weeks left. My PhD mentor and I were constantly searching for any library that would let us communicate with the instruments. One night at 4 am, I got a mail saying “Have you tried PyVisa ?” from Abhishek Sir.
+The next day , I tried and it worked ! :D
+But this was just the beginning. The establishing of communication was just a “Hello World! “, most of the major task was left. I started working day and night to finish the code. I had finally understood the solution to the problem. All that was left was coding and implementing it.
+The final days consisted of coding and testing. Test, Code and test again. After a lot of modifications, my program was finally running ! I couldn’t believe it. I had actually solved the problem statement !
+My setup would be used to measure low frequency noise in wafer level devices fabricated by the research group. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://asquare14.github.io/assets/images/iisc-lab.jpeg&quot; alt=&quot;IISc Lab&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-people&quot;&gt;THE PEOPLE&lt;/h4&gt;
+
+&lt;p&gt;Mayank Sir would play cricket with the other students and interns. He also talked to us like a friend when he took us out for lunch during the last week! If you met him in lab, you wouldn’t believe that he is so senior and accomplished. He is very humble. Certainly the coolest professor I’ve met !
+The mentors were also amazing. Once I had fallen sick and had to go to the ER, I called up my mentors to tell them I couldn’t come for a few days. They were worried about my well-being and consantly checked up on me. Our mentors also took us to the Hostel Mess !
+The other interns, and I have become friends for life. We still keep in touch.
+Apart from growing academically, the diverse and brilliant atmosphere of this lab gave me an opportunity to grow as a person. It was an amazing two months, filled with a lot of learning, frustration and happiness.
+I will be forever grateful to the magical place called IISc, Prof. Mayank, Harsha Mam and Abhishek Sir for this awesome experience :D&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;[This blog post was originally published on &lt;a href=&quot;https://medium.com/@atibhiagrawal/my-2018-summer-internship-at-indian-institute-of-sciences-bengaluru-dc804834bde8&quot;&gt;Medium&lt;/a&gt;]&lt;/em&gt;&lt;/p&gt;</content><author><name>atibhi</name></author><category term="blog" /><category term="Internship Experiences" /><summary type="html">This summer I had the opportunity to intern at Department of Electronic Systems Engineering at IISc under Prof. Mayank Srivastava. In this post, I am going to write about my internship experience.</summary></entry></feed>

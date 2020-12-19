@@ -1,5 +1,5 @@
 ---
-title: Introducing Team Rubies - Our RGSoC Journey
+title: Introducing Team Rubies - Our Rails Girls Summer of Code Journey
 layout: post
 date: 2018-06-06 13:30
 tag:
