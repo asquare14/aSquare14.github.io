@@ -1,7 +1,7 @@
 # main text of home
 name: Atibhi Agrawal
 
-bio: Tech ♥️ | Art🎨 | Alum google, hackerrank , rgsoc, iiitb
+bio: Software Engineer 
 
 # twitter summary info
 description: My personal space on the World Wide Web
@@ -76,6 +76,7 @@ projects: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+talks: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
