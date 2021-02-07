@@ -9,7 +9,9 @@ List of talks and their details.
 
 ## Observability for beginners
 
-- Upcoming at FOSDEM 2021
+- **Event** - [FOSDEM 2021](https://fosdem.org/2021/about/)
+- [**Link to Event**](https://fosdem.org/2021/schedule/event/observability_for_beginners/)
+- **Date**: 7 February 2021
 
 ## Introduction to Jenkins
 
