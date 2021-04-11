@@ -7,6 +7,12 @@ layout: page
 
 List of talks and their details.
 
+## New matchers in Prometheus Alertmanager
+
+- **Event** - [PromConIO 2021 at KubeCon Europe 2021](https://promcononline2021.sched.com/event/ibJD)
+- [**Slides**](https://static.sched.com/hosted_files/promcononline2021/85/MatchersinAlertmanager_AtibhiAgrawal_3May.pdf)
+- **Date**: May 3, 2021
+
 ## Observability for beginners
 
 - **Event** - [FOSDEM 2021](https://fosdem.org/2021/about/)
