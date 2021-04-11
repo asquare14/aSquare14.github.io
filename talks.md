@@ -9,6 +9,8 @@ List of talks and their details.
 
 ## New matchers in Prometheus Alertmanager
 
+In this lightning talk, I talk about the newly added matchers in Prometheus Alertmanager. The matchers were added for Silences and in the Alertmanager config for inhibition and routing. Apart from reducing the number of config options for inhibition and routing, these new matchers support negative matching and add consistency to the Silences UI. This talk compares the new style and old style matchers, as well as walks you through an example to show you how to use it.
+
 - **Event** - [PromConIO 2021 at KubeCon Europe 2021](https://promcononline2021.sched.com/event/ibJD)
 - [**Slides**](https://static.sched.com/hosted_files/promcononline2021/85/MatchersinAlertmanager_AtibhiAgrawal_3May.pdf)
 - **Date**: May 3, 2021
