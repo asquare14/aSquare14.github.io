@@ -15,6 +15,13 @@ In this lightning talk, I talk about the newly added matchers in Prometheus Aler
 - [**Slides**](https://static.sched.com/hosted_files/promcononline2021/85/MatchersinAlertmanager_AtibhiAgrawal_3May.pdf)
 - **Date**: May 3, 2021
 
+## Panel Discussion on Open Source
+
+Answered questions on how to get started with Open Source, or how to crack Summer of Code programs like Google Summer of Code, Outreachy, etc.
+
+- **Event** - [Open Source Panel](https://www.meetup.com/Women-Who-Code-Hyderabad/events/277640497/)
+- **Date**: 26 April, 2021
+
 ## Observability for beginners
 
 - **Event** - [FOSDEM 2021](https://fosdem.org/2021/about/)
