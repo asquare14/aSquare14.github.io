@@ -27,14 +27,23 @@
             </li>
         {% endif %}
         {% endif %}
+    
+        {% if site.blog == true %}
+        {% if page.title != "Blog" %}
+        <li class="item">
+            <a class="link" href="https://www.instagram.com/artbyatibhi/">Art</a>
+        </li>
+        {% endif %}
+    {% endif %}
 
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
-            <li class="item">
-                <a class="link" href="https://www.instagram.com/artbyatibhi/">Art</a>
-            </li>
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/lists">Lists</a>
+                </li>
             {% endif %}
         {% endif %}
+
 
         
 <!-- 
