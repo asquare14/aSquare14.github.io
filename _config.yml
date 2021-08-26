@@ -78,6 +78,7 @@ about: true
 blog: true
 talks: true
 lists: true
+tce: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
