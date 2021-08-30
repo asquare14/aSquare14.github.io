@@ -22,6 +22,7 @@ Welcome to my "lists" page. Ever since I can remember, I have loved making lists
 * [To Anyone Who is Still Not Convinced that a Career Fair for Women in Computing is “Fair”](https://mrachamallu.medium.com/to-anyone-who-is-still-not-convinced-that-a-career-fair-for-women-in-computing-is-fair-fcde89660218)
 * [Distributed Systems Notes, University of Cambridge ](https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/dist-sys-notes.pdf)
 * [The Confessions of Marcus Hutchins, the Hacker Who Saved the Internet](https://www.wired.com/story/confessions-marcus-hutchins-hacker-who-saved-the-internet/)
+* [Scaling with Common Sense](https://zerodha.tech/blog/scaling-with-common-sense/)
 
 ### Life and Relationships
 * [5 Subtle Signs of Fake Friendship](https://medium.com/the-ascent/5-subtle-signs-someone-is-a-fake-friend-a48476c26845)
