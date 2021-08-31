@@ -23,6 +23,11 @@ Welcome to my "lists" page. Ever since I can remember, I have loved making lists
 * [Distributed Systems Notes, University of Cambridge ](https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/dist-sys-notes.pdf)
 * [The Confessions of Marcus Hutchins, the Hacker Who Saved the Internet](https://www.wired.com/story/confessions-marcus-hutchins-hacker-who-saved-the-internet/)
 * [Scaling with Common Sense](https://zerodha.tech/blog/scaling-with-common-sense/)
+* [Software Engineering Books List](https://www.karllhughes.com/posts/software-engineering-books)
+
+
+### Helpful Tweets
+...
 
 ### Life and Relationships
 * [5 Subtle Signs of Fake Friendship](https://medium.com/the-ascent/5-subtle-signs-someone-is-a-fake-friend-a48476c26845)
