@@ -7,6 +7,14 @@ layout: page
 
 List of talks and their details.
 
+
+## Manhattan and Elasticsearch
+
+Internal Tech Talk at Twitter for the IAM team where I talked about Twitter's database and Elasticsearch.
+
+- **Event** - Internal Tech Talk
+- **Date**: Sept 8, 2021
+
 ## New matchers in Prometheus Alertmanager
 
 In this lightning talk, I talk about the newly added matchers in Prometheus Alertmanager. The matchers were added for Silences and in the Alertmanager config for inhibition and routing. Apart from reducing the number of config options for inhibition and routing, these new matchers support negative matching and add consistency to the Silences UI. This talk compares the new style and old style matchers, as well as walks you through an example to show you how to use it.
