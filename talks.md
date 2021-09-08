@@ -10,7 +10,7 @@ List of talks and their details.
 
 ## Manhattan and Elasticsearch
 
-Internal Tech Talk at Twitter for the IAM team where I talked about Twitter's database and Elasticsearch.
+Internal Tech Talk at Twitter for the IAM team where I talked about Twitter's database [Manhattan](https://blog.twitter.com/engineering/en_us/a/2014/manhattan-our-real-time-multi-tenant-distributed-database-for-twitter-scale) and [Elasticsearch](https://www.elastic.co/).
 
 - **Event** - Internal Tech Talk
 - **Date**: Sept 8, 2021
