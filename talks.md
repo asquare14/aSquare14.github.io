@@ -7,6 +7,12 @@ layout: page
 
 List of talks and their details.
 
+## My Free and Open Source Journey
+
+Getting started with and navigating the open-source tech scene can be intimidating. In this talk, Atibhi hopes others can utilize and learn from her experiences. She will talk about her FOSS journey, growing one's technical skills, the challenges she faced and also how FOSS can help folks take their career to the next level.
+- **Event** - [Invited Speaker at Foss Hack by Foss United](https://fossunited.org/fosshack/2021/agenda)
+- **Recording** - [To Be Added]
+- **Date**: 14 Nov, 2021
 
 ## Manhattan and Elasticsearch
 
@@ -67,7 +73,6 @@ A candid conversation on life, college experiences, hobbies, etc.
 - **Event**: Interviewed by Tejas Kotha.
 - [**Podcast**](https://anchor.fm/include-peopleh/episodes/3-Atibhi-Agrawal-el6gga) 
 - **Date**: 17 October 2020
-
 
 ## HacktoberFest Event 
 
