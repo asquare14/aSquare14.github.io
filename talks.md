@@ -12,14 +12,14 @@ List of talks and their details.
 Software Engineering, Coding Tips, General Life Advice
 
 - **Event** - Invited Speaker in Saumya's Youtube Channel
-- **Recording** - https://www.youtube.com/watch?v=DRXC1gyztAE
+- **Recording** - [https://www.youtube.com/watch?v=DRXC1gyztAE]
 - **Date**: 19 Feb 2022
 
 ## My Open Source Journey
 
 Getting started with and navigating the open-source tech scene can be intimidating. In this talk, Atibhi hopes others can utilize and learn from her experiences. She will talk about her FOSS journey, growing one's technical skills, the challenges she faced and also how FOSS can help folks take their career to the next level.
 - **Event** - [Invited Speaker at Foss Hack by Foss United](https://fossunited.org/fosshack/2021/agenda)
-- **Recording** - https://www.youtube.com/watch?v=AtwULnaak-g
+- **Recording** - [https://www.youtube.com/watch?v=AtwULnaak-g]
 - **Date**: 14 Nov, 2021
 
 ## Manhattan and Elasticsearch
