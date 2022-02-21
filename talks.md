@@ -11,7 +11,7 @@ List of talks and their details.
 
 Software Engineering, Coding Tips, General Life Advice
 
-- **Event** - [Invited Speaker at Foss Hack by Foss United](https://fossunited.org/fosshack/2021/agenda)
+- **Event** - Invited Speaker in Saumya's Youtube Channel
 - **Recording** - https://www.youtube.com/watch?v=DRXC1gyztAE
 - **Date**: 19 Feb 2022
 
