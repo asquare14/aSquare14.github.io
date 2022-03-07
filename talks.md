@@ -8,7 +8,7 @@ layout: page
 List of talks and their details.
 ## DevOps Bootcamp for Scaler Academy
 
-A two-day bootcamp where I covered various topics related to DevOps. It also involved building a project and deploying it.
+A two-day bootcamp where I covered various topics related to DevOps. It also involved building a project and deploying it. More than 5000 people registered for the event.
 
 - **Event Link** - [Registration Page](https://www.scaler.com/event/devops-bootcamp/)
 - [**Slides**](https://docs.google.com/presentation/d/1uadhfAhfI_cuWs5DsSrkjdZvqxt1LE1fA8c_uhBTSxI/edit?usp=sharing)
@@ -22,6 +22,12 @@ Software Engineering, Coding Tips, General Life Advice
 - **Event** - Invited as speaker in Saumya's Youtube Channel
 - [**Recording**](https://www.youtube.com/watch?v=DRXC1gyztAE)
 - **Date**: 19 Feb 2022
+
+## How to bag multiple internships and jobs in Software Engineering
+
+- **Event** - Invited as speaker in Scaler's discord community.
+- [**Poster**](https://github.com/asquare14/aSquare14.github.io/blob/master/assets/images/photo6138477829537509344.jpeg)
+- **Date** - 20 Jan 2022
 
 ## My Open Source Journey
 
