@@ -6,20 +6,28 @@ layout: page
 # Talks
 
 List of talks and their details.
+## DevOps Bootcamp for Scaler Academy
 
-## How she became Software Developer at Twitter? | Ex- Google, Morgan Stanley
+A two-day bootcamp where I covered various topics related to DevOps. It also involved building a project and deploying it.
+
+- **Event Link** - [Registration Page](https://www.scaler.com/event/devops-bootcamp/)
+- [**Slides**](https://docs.google.com/presentation/d/1uadhfAhfI_cuWs5DsSrkjdZvqxt1LE1fA8c_uhBTSxI/edit?usp=sharing)
+- [**Github Repo**](https://github.com/asquare14/scaler-bootcamp-app)
+- **Date** - 5,6 March 2022
+ 
+## How to become a Software Developer at Twitter?
 
 Software Engineering, Coding Tips, General Life Advice
 
-- **Event** - Invited Speaker in Saumya's Youtube Channel
-- **Recording** - [https://www.youtube.com/watch?v=DRXC1gyztAE]
+- **Event** - Invited as speaker in Saumya's Youtube Channel
+- [**Recording**](https://www.youtube.com/watch?v=DRXC1gyztAE)
 - **Date**: 19 Feb 2022
 
 ## My Open Source Journey
 
 Getting started with and navigating the open-source tech scene can be intimidating. In this talk, Atibhi hopes others can utilize and learn from her experiences. She will talk about her FOSS journey, growing one's technical skills, the challenges she faced and also how FOSS can help folks take their career to the next level.
-- **Event** - [Invited Speaker at Foss Hack by Foss United](https://fossunited.org/fosshack/2021/agenda)
-- **Recording** - [https://www.youtube.com/watch?v=AtwULnaak-g]
+- **Event** - [Invited as speaker at Foss Hack by Foss United](https://fossunited.org/fosshack/2021/agenda)
+- [**Recording**](https://www.youtube.com/watch?v=AtwULnaak-g)
 - **Date**: 14 Nov, 2021
 
 ## Manhattan and Elasticsearch
