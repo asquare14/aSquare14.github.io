@@ -6,7 +6,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 
-Hello! I'm Atibhi, a Software Engineer at Amazon Prime Video. Before this, I worked at Twitter, where our team was responsible for Single Sign-On (SSO). If you've ever rented or bought a movie, subscribed to Prime Video, or purchased a Prime subscription, there's a good chance some of your actions have triggered code that I contributed to! :)
+Hello! I'm Atibhi, a Software Engineer at Amazon Prime Video. Before this, I worked at Twitter, where our team was responsible for all things IAM. If you've ever rented or bought a movie, subscribed to Prime Video, or purchased a Prime subscription, there's a good chance some of your actions have triggered code that I contributed to! :)
 
 My internship experience spans across Morgan Stanley (2021), Grafana (2020), Google (2020), Hackerrank (2019), and Rails Girls Summer of Code (2018). I hold a dual degree (Bachelors and Masters) from IIIT-Bangalore. Welcome to my corner of the web!
 
