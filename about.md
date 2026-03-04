@@ -6,13 +6,13 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 
-Hello! I'm Atibhi, a Software Engineer at Amazon Ads within the Gen AI platform team, where I build scalable AI solutions across the ads ecosystem. Previously, I was at Amazon Prime Video (Checkouts) and Twitter (IAM). If you've ever rented a movie on Prime Video or navigated security on Twitter, you've likely interacted with systems I helped build!
+Hello! I'm Atibhi, a Software Engineer at Amazon Ads within the Gen AI platform team, where I build scalable AI solutions across the ads ecosystem. Previously, I was at Amazon Prime Video (Checkouts) and Twitter (IAM). If you've ever rented a movie on Prime Video or navigated security on Twitter, you've likely interacted with systems I helped build! I am based in London, United Kingdom.
 
 My internship experience spans across Morgan Stanley (2021), Grafana (2020), Google (2020), Hackerrank (2019), and Rails Girls Summer of Code (2018). I hold a dual degree (Bachelors and Masters) from IIIT-Bangalore. Welcome to my corner of the web!
 
 My interests lie in **agents, distributed systems, algorithms, and open source**. I care about building impactful, accessible, and inclusive tech for everyone.
 
-### Selected Side Projects
+### Side Projects
 - **[Anti-Money Laundering Compliance Agent](https://github.com/asquare14/Anti-Money-Laundering-Compliance-Agent)**: Won 2nd prize in a hackathon of 3,000+ participants.
 - **Risk Scenario Engine**: A co-pilot for risk analysts. Ranked in the top 10% of YC W26 applications.
 - **romeojuliet.love**: A matchmaking platform using voice AI for user profiling (40+ users and counting...).
