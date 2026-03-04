@@ -51,7 +51,7 @@ You must fill some informations on `_config.yml` to customize your site.
 ```
 name: John Doe
 bio: 'A Man who travels the world eating noodles'
-picture: 'assets/images/profile.jpg'
+picture: 'assets/images/image.png'
 ...
 
 and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
