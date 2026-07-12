@@ -1,0 +1,31 @@
+_includes/social-links.html
+  s_e255699437db83::t_483841a4c68a3e 80-82
+_includes/nav.html
+  s_e255699437db83::t_2fc76075c4c466 19
+about.md
+  s_e255699437db83::t_08288a749a495d 9
+  s_e255699437db83::t_bcc8c2670ea665 25
+_includes/icons.html
+  s_e255699437db83::t_498c18f6cf3e10 70-72
+_config.yml
+  s_e255699437db83::t_f93d2ce06d34b0 51
+  s_e255699437db83::t_1dd7995fbe054e 4
+CLAUDE.md
+  s_e255699437db83::t_5c9ecab1da3433 1-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "bfa4475ecbfc77f1d27e8a2790b92776753b339f",
+  "prompts": {},
+  "sessions": {
+    "s_e255699437db83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "976ff51c-3631-4ea0-be9d-5b9e586e911e",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Atibhi <atibhi.a@gmail.com>"
+    }
+  }
+}
