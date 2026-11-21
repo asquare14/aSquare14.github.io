@@ -1,0 +1,63 @@
+tags.html
+  s_257af71afcd357::t_8e9005fb729cc1 5-16
+projects.html
+  s_257af71afcd357::t_0f6a19bf8f6bd2 2-4,6-18
+talks.md
+  s_257af71afcd357::t_d19aae1126cf4a 4
+assets/css/main.css
+  s_257af71afcd357::t_35558bafab72dc 1-171
+  s_257af71afcd357::t_d19aae1126cf4a 172
+  s_257af71afcd357::t_0f8da319c8faaa 173-175
+.gitignore
+  s_257af71afcd357::t_9cc45ac9ca69ab 1-8
+_includes/header.html
+  s_257af71afcd357::t_72a0f585f247d1 1-10
+_layouts/default.html
+  s_257af71afcd357::t_5a9474adcc6610 1,4-15,18-24
+_layouts/home.html
+  s_257af71afcd357::t_b8ddcc6d183ccd 1-86
+_data/art.yml
+  s_257af71afcd357::t_f9dc8869e35b5b 1-23
+_data/work.yml
+  s_257af71afcd357::t_dfce41d3d69a45 1-15
+README.md
+  s_257af71afcd357::t_910fadef23eea9 1,3,5,7,9-15,17,19,21-23
+_data/home.yml
+  s_257af71afcd357::t_e1cf7967eaea48 1-31
+_layouts/page.html
+  s_257af71afcd357::t_b8375e7b2c8fe8 4-12
+_includes/footer.html
+  s_257af71afcd357::t_c3ee9330f1d90e 1-10
+_data/books.yml
+  s_257af71afcd357::t_8f65f0de8b438a 1-31
+index.html
+  s_257af71afcd357::t_e0d439e7fa5f41 2
+_layouts/post.html
+  s_257af71afcd357::t_e8fd210610673b 2,4-25
+_config.yml
+  s_257af71afcd357::t_1697ee812cb226 1-2,4-8,10-11,14,16-17,19,21-40,45,49-58
+about.md
+  s_257af71afcd357::t_d19aae1126cf4a 6
+CLAUDE.md
+  s_257af71afcd357::t_608f1ad50249d4 7,18,22,24-29
+_data/projects.yml
+  s_257af71afcd357::t_3dbd0e63847bdb 1-30
+blog/index.html
+  s_257af71afcd357::t_cbeb6c13a7c03b 3-4,6-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "be1e45265d67a84c9e97c652f72f926c4395ae18",
+  "prompts": {},
+  "sessions": {
+    "s_257af71afcd357": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f5c10be2-d5ae-4d49-8794-16a179fd7728",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Atibhi <atibhi.a@gmail.com>"
+    }
+  }
+}
