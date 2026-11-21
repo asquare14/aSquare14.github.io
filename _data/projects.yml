@@ -1,0 +1,30 @@
+# Groups shown in the Projects section, in order.
+# `url` is optional: leave it out and the title won't be a link.
+
+- group: Live apps
+  items:
+    - name: Plotrecap
+      url: https://plotrecap.app/
+      tag: Books
+      detail: Forgot what happened? Spoiler-safe recaps and character maps that stop exactly where you stopped reading.
+    - name: K-Drama Club
+      url: https://k-drama-pink-dream.lovable.app
+      tag: TV
+      detail: A cute pink tracker. Browse thousands of K-dramas, tick off what you’ve watched, see what’s trending.
+    - name: Life in the UK Practice Test
+      url: https://lifeinuk.lovable.app
+      tag: Study
+      detail: Question banks, mock exams and saved progress for the Life in the UK test.
+
+- group: Agents & AI
+  items:
+    - name: Anti-Money Laundering Agent
+      url: https://github.com/asquare14/Anti-Money-Laundering-Compliance-Agent
+      tag: 2nd of 3,000+
+      detail: Flags suspicious transactions and drafts SAR reports. Built at a hackathon.
+    - name: Risk Scenario Engine
+      tag: Fintech
+      detail: A co-pilot for risk analysts. Reads a portfolio and generates researched risk scenarios.
+    - name: romeojuliet.love
+      tag: In use
+      detail: Matchmaking that gets to know you through voice AI.

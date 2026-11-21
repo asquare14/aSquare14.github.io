@@ -1,11 +1,8 @@
 ---
 title: Talks
 layout: page
+description: Talks, workshops and panels from 2020–2022.
 ---
-
-# Talks
-
-List of talks and their details.
 ## DevOps Bootcamp for Scaler Academy
 
 A two-day bootcamp where I covered various topics related to DevOps. It also involved building a project and deploying it. More than 5000 people registered for the event.

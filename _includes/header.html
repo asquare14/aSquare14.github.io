@@ -1,26 +1,10 @@
-{% if page.title == "Home"
-   or page.title == "Blog"
-   or page.title == "Projects"
-   or page.title == "Tags"
-%}{% assign showHeader = true %}{% endif %}
-
-{% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
-
-        <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
-    </header>
-{% endif %}
-
-{% include nav.html %}
+<header class="site-header">
+  <a class="mark" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+  <nav class="caps" aria-label="Sections">
+    <a href="{{ '/#work' | relative_url }}">Work</a>
+    <a href="{{ '/#projects' | relative_url }}">Projects</a>
+    <a class="opt" href="{{ '/#writing' | relative_url }}">Writing</a>
+    <a class="opt" href="{{ '/#art' | relative_url }}">Art</a>
+    <a href="{{ '/#library' | relative_url }}">Library</a>
+  </nav>
+</header>

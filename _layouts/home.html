@@ -1,0 +1,86 @@
+---
+layout: default
+---
+{%- assign home = site.data.home -%}
+<div class="intro">
+  <div>
+    <p class="caps eyebrow">{{ home.eyebrow }}</p>
+    <h1>{{ home.heading }}</h1>
+    <div class="lede">{{ home.lede | markdownify }}</div>
+    <ul class="now" aria-label="Right now">
+      {%- for item in home.now %}
+      <li>{{ item.emoji }} <b>{{ item.label }}</b> {% if item.placeholder %}<span class="ph">{{ item.text }}</span>{% else %}{{ item.text }}{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <figure class="portrait"><img src="{{ site.picture | relative_url }}" alt="{{ site.name }}" width="240" height="300"></figure>
+</div>
+
+<div class="divider" aria-hidden="true">✦</div>
+
+<section id="work" class="block" aria-labelledby="work-h">
+  <div class="label"><span class="n">01.</span><h2 id="work-h">Work</h2></div>
+  <ul class="rows">
+    {%- for job in site.data.work %}
+    <li><span class="t">{{ job.name }}</span><span class="r">{{ job.tag }}</span><span class="d">{{ job.detail }}</span></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section id="projects" class="block" aria-labelledby="proj-h">
+  <div class="label"><span class="n">02.</span><h2 id="proj-h">Projects</h2><p>Things I build after hours.</p></div>
+  <div>
+    {%- for group in site.data.projects %}
+    <p class="sub caps">{{ group.group }}</p>
+    <ul class="rows">
+      {%- for p in group.items %}
+      <li>
+        {%- if p.url %}<a class="t" href="{{ p.url }}">{{ p.name }}<span class="arrow" aria-hidden="true">↗</span></a>{% else %}<span class="t">{{ p.name }}</span>{% endif -%}
+        <span class="r">{{ p.tag }}</span><span class="d">{{ p.detail }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endfor %}
+    <p class="note">{{ home.open_source }} <a href="https://github.com/{{ site.github }}">More on GitHub</a></p>
+  </div>
+</section>
+
+<section id="writing" class="block" aria-labelledby="writing-h">
+  <div class="label"><span class="n">03.</span><h2 id="writing-h">Writing</h2></div>
+  <div class="writing">
+    <p>I write on Substack.</p>
+    <a class="btn" href="https://{{ site.substack }}.substack.com">Read on Substack ↗</a>
+  </div>
+</section>
+
+<section id="art" class="block" aria-labelledby="art-h">
+  <div class="label"><span class="n">04.</span><h2 id="art-h">Art</h2><p>{{ home.art_blurb }}</p></div>
+  <div>
+    <div class="art">
+      {%- for piece in site.data.art %}
+      <figure>
+        <img src="{{ '/assets/images/art/' | append: piece.file | relative_url }}" alt="{{ piece.alt }}" width="{{ piece.width }}" height="{{ piece.height }}" loading="lazy">
+        <figcaption>{{ piece.caption }}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+    <p class="note">More on Instagram, <a href="https://www.instagram.com/{{ site.instagram }}">@{{ site.instagram }}</a></p>
+  </div>
+</section>
+
+<section id="library" class="block" aria-labelledby="lib-h">
+  {%- assign books = site.data.books -%}
+  <div class="label"><span class="n">05.</span><h2 id="lib-h">Library</h2><p>{{ home.library_blurb }}</p></div>
+  <div>
+    <div class="shelf" role="list" aria-label="Bookshelf">
+      {%- for b in books.shelf %}
+      <span role="listitem" class="book{% if b.width == 'wide' %} wide{% endif %}{% if b.lean %} lean{% endif %}" style="height:{{ b.height }}px;background:{{ b.color }}">{{ b.title }}</span>
+      {%- endfor %}
+      <span class="bookend" aria-hidden="true"></span>
+    </div>
+    <div class="shelf-note">
+      {%- if books.placeholder %}<span class="ph">placeholder: your favourite books</span>{% else %}<span></span>{% endif %}
+      <a href="{{ books.goodreads }}">Full list on Goodreads</a>
+    </div>
+  </div>
+</section>

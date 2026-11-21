@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal website/blog of Atibhi Agrawal, hosted on GitHub Pages. Built with Jekyll using the [Indigo](https://github.com/sergiokopplin/indigo) minimalist template. No JavaScript by design — just Jekyll, Sass, and SVG.
+Personal website of Atibhi Agrawal, hosted on GitHub Pages and built with Jekyll (the `github-pages` gem, so only Pages-whitelisted plugins work). Custom theme, no JavaScript: Liquid layouts plus one plain CSS file. White background, Cormorant Garamond headings, Jost body text, one blush accent (`--accent`).
 
 ## Commands
 
@@ -13,17 +13,17 @@ bundle install                                                  # install depend
 bundle exec jekyll serve --config _config.yml,_config-dev.yml   # local dev at http://localhost:4000
 bundle exec jekyll build                                        # build to _site/
 bundle exec htmlproofer ./_site                                 # validate built site links
-rake test                                                       # build + htmlproofer in one step
 ```
 
-The `_config-dev.yml` override sets `url` to localhost — always include it when serving locally, otherwise absolute links point at the production URL. The jekyll-admin plugin provides a local post editor at `http://localhost:4000/admin` (local only, not on GitHub Pages).
+The `_config-dev.yml` override sets `url` to localhost. Templates use `relative_url`, so local links work either way.
 
 ## Architecture
 
-Standard Jekyll structure; deployment is automatic on push to `master` (GitHub Pages builds the site — `_site/` is a local build artifact, don't hand-edit it).
+Deployment is automatic on push to `master`. `_site/`, `.sass-cache/` and `vendor/` are gitignored build output.
 
-- `_config.yml` — all site content toggles live here: which nav pages exist (`about`, `blog`, `projects`, `talks`, `lists`, `tce`), social links, post features (`read-time`, `show-tags`, `related`, `show-author`), and the `authors` map used by `_includes/author.html`.
-- `_posts/` — blog posts, named `YYYY-MM-DD-title.md`. Permalinks are `/:title/` (no date in URL).
-- `_layouts/` — `default.html` wraps everything and runs through `compress.html` to minify HTML; `page.html` and `post.html` build on it.
-- `_includes/` — nav, footer, social links, Disqus, analytics snippets; `style.scss` is the Sass entry point pulling from `_sass/{base,components,pages}`.
-- Top-level `.md`/`.html` files (`about.md`, `talks.md`, `projects.html`, etc.) are the site pages; their visibility is controlled by the corresponding boolean in `_config.yml`.
+- `_data/*.yml` holds the home page content (intro, work, projects, art, books). Prefer editing these over the templates.
+- `_layouts/default.html` is the shell (head, `{% seo %}`, header, footer). `home.html` renders the numbered home sections from `_data/`. `page.html` and `post.html` wrap Markdown in `.prose`.
+- `_includes/header.html` and `footer.html` are the only includes. Footer links come from handles in `_config.yml`.
+- `assets/css/main.css` holds all styles, plain CSS with custom properties on `:root`.
+- `_posts/` are the 2018–2020 posts, permalinks `/:title/`. Keep those URLs stable. New writing lives on Substack.
+- `projects.html` is a meta-refresh redirect from the old `/projects/` URL to `/#projects`.
