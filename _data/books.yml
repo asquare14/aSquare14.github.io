@@ -37,12 +37,13 @@ shelf:
     spine: "#f5efe2"
     ink: "#d6362a"
     height: 226
-  - title: An Education
-    author: Lynn Barber
-    cover: an-education.jpg
-    cover_size: [353, 500]
-    spine: "#24262c"
-    ink: "#ffffff"
+  - title: Educated
+    author: Tara Westover
+    cover: educated.jpg
+    cover_size: [329, 500]
+    spine: "#efe9dd"
+    ink: "#1f4aa8"
+    accent: "#a3242b"
     height: 232
   - title: This Is Going to Hurt
     author: Adam Kay
