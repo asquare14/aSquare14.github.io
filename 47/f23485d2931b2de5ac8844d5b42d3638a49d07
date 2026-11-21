@@ -1,0 +1,19 @@
+_data/books.yml
+  s_257af71afcd357::t_b439c449c2e06c 40-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "47f23485d2931b2de5ac8844d5b42d3638a49d07",
+  "prompts": {},
+  "sessions": {
+    "s_257af71afcd357": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f5c10be2-d5ae-4d49-8794-16a179fd7728",
+        "model": "unknown"
+      },
+      "human_author": "Atibhi <atibhi.a@gmail.com>"
+    }
+  }
+}
