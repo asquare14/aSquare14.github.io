@@ -57,10 +57,6 @@ a:focus-visible { outline: 1px solid var(--accent); outline-offset: 4px; }
 .portrait { margin: 0; justify-self: center; }
 .portrait img { width: 240px; height: 300px; object-fit: cover; object-position: center 22%; border-radius: 140px 140px 4px 4px; display: block; }
 
-.now { margin: 32px 0 0; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; list-style: none; }
-.now li { font-size: 14px; padding: 6px 14px; border: 1px solid var(--line); border-radius: 99px; color: var(--soft); }
-.now b { font-weight: 500; color: var(--ink); margin: 0 2px 0 6px; }
-
 .divider { display: flex; align-items: center; gap: 18px; color: var(--accent); font-size: 14px; }
 .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
@@ -102,25 +98,64 @@ a:focus-visible { outline: 1px solid var(--accent); outline-offset: 4px; }
 .art figcaption { margin-top: 8px; font: italic 500 16px/1.3 var(--serif); color: var(--soft); }
 @media (max-width: 520px) { .art { column-gap: 10px; } .art figcaption { font-size: 14px; } }
 
-/* library */
-.shelf { display: flex; align-items: flex-end; gap: 4px; padding: 0 12px; min-height: 230px; border-bottom: 3px solid var(--ink); overflow: hidden; }
+/* library: real spines; click one to pop its cover up (HTML popover, no JS) */
+.shelf { list-style: none; margin: 0; display: flex; align-items: flex-end; gap: 3px; padding: 18px 12px 0; min-height: 270px; border-bottom: 4px solid var(--ink); }
+.slot { display: flex; align-items: flex-end; }
+.slot.lean { margin-left: 6px; }
+.slot.lean .book { transform: rotate(6deg); transform-origin: bottom left; }
+.slot.lean .book:hover, .slot.lean .book:focus-visible { transform: rotate(6deg) translateY(-10px); }
 .book {
-  writing-mode: vertical-rl; transform: rotate(180deg);
-  display: flex; align-items: center; justify-content: center;
-  width: 40px; padding: 14px 0; border-radius: 2px 2px 0 0;
-  font: italic 500 15px/1 var(--serif); color: var(--ink); letter-spacing: .3px;
-  box-shadow: inset 3px 0 0 rgba(255,255,255,.35), inset -3px 0 0 rgba(0,0,0,.05);
-  transition: transform .2s;
+  position: relative; display: flex; justify-content: center; align-items: stretch;
+  width: 44px; padding: 0; margin: 0; border: 0; cursor: pointer;
+  background: var(--spine); color: var(--ink);
+  border-radius: 3px 3px 0 0;
+  box-shadow: inset 4px 0 0 rgba(255,255,255,.18), inset -4px 0 0 rgba(0,0,0,.10), inset 0 0 0 1px rgba(0,0,0,.06);
+  transition: transform .2s ease;
+  font: inherit;
 }
-.book:hover { transform: rotate(180deg) translateY(8px); }
-.book.wide { width: 50px; }
-.book.lean { transform: rotate(173deg) translateX(-8px); margin-left: 16px; }
-.book.lean:hover { transform: rotate(173deg) translate(-8px, 8px); }
-.bookend { width: 18px; height: 70px; background: var(--ink); border-radius: 2px 2px 0 0; margin-left: auto; }
+.book.wide { width: 52px; }
+.book:hover, .book:focus-visible { transform: translateY(-10px); }
+.book:focus-visible { outline: 1px solid var(--accent); outline-offset: 3px; }
+/* thin bands near the top and bottom, like printed spines */
+.book::before { content: ""; position: absolute; left: 0; right: 0; top: 10px; bottom: 10px; border-top: 2px solid var(--band); border-bottom: 2px solid var(--band); opacity: .55; pointer-events: none; }
+.spine { writing-mode: vertical-rl; display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 20px 0; height: 100%; }
+.bt { font: 600 15px/1 var(--serif); letter-spacing: .3px; white-space: nowrap; }
+.ba { font: 500 9px/1 var(--sans); letter-spacing: 1.6px; text-transform: uppercase; opacity: .8; white-space: nowrap; }
+/* bookmark ribbon on the book I'm reading */
+.book.reading::after { content: ""; position: absolute; left: calc(50% - 3px); top: -12px; width: 6px; height: 22px; background: #b5657a; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%); }
+.bookend { width: 18px; height: 80px; background: var(--ink); border-radius: 2px 2px 0 0; margin-left: auto; }
+
 .shelf-note { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 16px; color: var(--soft); font-size: 15px; }
-@media (max-width: 520px) {
-  .book { width: 34px; } .book.wide { width: 40px; }
-  .book:nth-child(n+6):not(.lean) { display: none; }
+.shelf-note em { font: italic 500 17px/1 var(--serif); color: var(--ink); }
+.ribbon-key { display: inline-block; width: 5px; height: 14px; background: var(--accent); margin-right: 8px; vertical-align: -2px; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%); }
+
+/* the cover pop-up. Browsers without popover support simply never show it. */
+.cover-pop { display: none; }
+.cover-pop:popover-open {
+  display: block; position: fixed; inset: 0; margin: auto;
+  width: min(300px, calc(100vw - 48px)); height: fit-content; max-height: calc(100vh - 48px); overflow: auto;
+  padding: 18px 18px 20px; border: 0; border-radius: 6px; background: var(--bg); color: var(--ink);
+  box-shadow: 0 24px 60px rgba(28,26,26,.28); text-align: center;
+  animation: cover-in .28s cubic-bezier(.2,.8,.2,1);
+}
+.cover-pop::backdrop { background: rgba(28,26,26,.35); backdrop-filter: blur(3px); }
+.cover-pop img { display: block; width: 100%; height: auto; border-radius: 2px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+.cp-title { margin: 16px 0 2px; font: 600 24px/1.15 var(--serif); }
+.cp-author { margin: 0; color: var(--soft); font-size: 14px; }
+.cp-now { color: var(--accent); }
+.cp-close { position: absolute; top: 6px; right: 8px; width: 32px; height: 32px; border: 0; border-radius: 50%; background: rgba(255,255,255,.9); color: var(--ink); font: 400 22px/1 var(--sans); cursor: pointer; }
+.cp-close:hover { background: var(--wash); }
+@keyframes cover-in { from { opacity: 0; transform: translateY(18px) scale(.94); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .cover-pop:popover-open { animation: none; } }
+
+@media (max-width: 760px) {
+  .shelf { gap: 2px; padding: 18px 4px 0; min-height: 230px; }
+  .book { width: 26px; } .book.wide { width: 30px; }
+  .bt { font-size: 12px; } .ba { font-size: 7px; letter-spacing: 1px; }
+  .spine { padding: 14px 0; gap: 6px; }
+  .book::before { top: 6px; bottom: 6px; }
+  .slot.lean { margin-left: 4px; }
+  .bookend { width: 10px; }
 }
 
 /* ---------- pages & posts ---------- */

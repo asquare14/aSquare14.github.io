@@ -6,7 +6,7 @@ layout: page
 <img class="about-photo" src="{{ site.picture | relative_url }}" alt="Atibhi Agrawal" width="220" height="275">
 
 
-Hello! I'm Atibhi, a Software Engineer at [ElevenLabs](https://elevenlabs.io/), where I work on the Ads Engine. Previously, I was at Amazon, first on Prime Video (Checkouts) and then building Gen AI platforms for Amazon Ads, and at Twitter (IAM). If you've ever rented a movie on Prime Video or navigated security on Twitter, you've likely interacted with systems I helped build! I am based in London, United Kingdom.
+Hello! I'm Atibhi, a Software Engineer at [ElevenLabs](https://elevenlabs.io/), where I work on [Ads Engine](https://elevenlabs.io/app/ads/creatives). Previously, I was at Amazon, first on Prime Video (Checkouts) and then building Gen AI platforms for Amazon Ads, and at Twitter (IAM). If you've ever rented a movie on Prime Video or navigated security on Twitter, you've likely interacted with systems I helped build! I am based in London, United Kingdom.
 
 My internship experience spans across Morgan Stanley (2021), Grafana (2020), Google (2020), Hackerrank (2019), and Rails Girls Summer of Code (2018). I hold a dual degree (Bachelors and Masters) from IIIT-Bangalore. Welcome to my corner of the web!
 
