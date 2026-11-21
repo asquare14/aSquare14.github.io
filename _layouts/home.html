@@ -7,11 +7,6 @@ layout: default
     <p class="caps eyebrow">{{ home.eyebrow }}</p>
     <h1>{{ home.heading }}</h1>
     <div class="lede">{{ home.lede | markdownify }}</div>
-    <ul class="now" aria-label="Right now">
-      {%- for item in home.now %}
-      <li>{{ item.emoji }} <b>{{ item.label }}</b> {% if item.placeholder %}<span class="ph">{{ item.text }}</span>{% else %}{{ item.text }}{% endif %}</li>
-      {%- endfor %}
-    </ul>
   </div>
   <figure class="portrait"><img src="{{ site.picture | relative_url }}" alt="{{ site.name }}" width="240" height="300"></figure>
 </div>
@@ -72,14 +67,25 @@ layout: default
   {%- assign books = site.data.books -%}
   <div class="label"><span class="n">05.</span><h2 id="lib-h">Library</h2><p>{{ home.library_blurb }}</p></div>
   <div>
-    <div class="shelf" role="list" aria-label="Bookshelf">
+    <ul class="shelf" aria-label="Bookshelf. Select a book to see its cover.">
       {%- for b in books.shelf %}
-      <span role="listitem" class="book{% if b.width == 'wide' %} wide{% endif %}{% if b.lean %} lean{% endif %}" style="height:{{ b.height }}px;background:{{ b.color }}">{{ b.title }}</span>
+      {%- assign bid = b.title | slugify | prepend: 'book-' %}
+      <li class="slot{% if b.lean %} lean{% endif %}">
+        <button type="button" class="book{% if b.width == 'wide' %} wide{% endif %}{% if b.reading %} reading{% endif %}" popovertarget="{{ bid }}" style="height:{{ b.height }}px;--spine:{{ b.spine }};--ink:{{ b.ink }};--band:{{ b.accent | default: b.ink }}" aria-label="{{ b.title }} by {{ b.author }}{% if b.reading %}, currently reading{% endif %}">
+          <span class="spine" aria-hidden="true"><span class="bt">{{ b.title }}</span><span class="ba">{{ b.author | split: ' ' | last }}</span></span>
+        </button>
+        <div popover id="{{ bid }}" class="cover-pop">
+          <img src="{{ '/assets/images/books/' | append: b.cover | relative_url }}" alt="Cover of {{ b.title }} by {{ b.author }}" width="{{ b.cover_size[0] }}" height="{{ b.cover_size[1] }}" loading="lazy">
+          <p class="cp-title">{{ b.title }}</p>
+          <p class="cp-author">{{ b.author }}{% if b.reading %} · <span class="cp-now">currently reading</span>{% endif %}</p>
+          <button type="button" class="cp-close" popovertarget="{{ bid }}" popovertargetaction="hide" aria-label="Close">×</button>
+        </div>
+      </li>
       {%- endfor %}
-      <span class="bookend" aria-hidden="true"></span>
-    </div>
+      <li class="bookend" aria-hidden="true"></li>
+    </ul>
     <div class="shelf-note">
-      {%- if books.placeholder %}<span class="ph">placeholder: your favourite books</span>{% else %}<span></span>{% endif %}
+      {%- if books.currently_reading %}<span><span class="ribbon-key" aria-hidden="true"></span>Currently reading <em>{{ books.currently_reading }}</em></span>{% else %}<span></span>{% endif %}
       <a href="{{ books.goodreads }}">Full list on Goodreads</a>
     </div>
   </div>

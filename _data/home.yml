@@ -12,19 +12,6 @@ lede: >-
   & access at **[X](https://x.com)**. I like agents, distributed systems, open source,
   good books and paint on my hands.
 
-# The little pills under the intro. Leave `placeholder: true` until it's real.
-now:
-  - emoji: "💻"
-    label: Building
-    text: Ads Engine
-  - emoji: "📖"
-    label: Reading
-    text: book title
-    placeholder: true
-  - emoji: "🎨"
-    label: Painting
-    text: on weekends
-
 open_source: >-
   Open source: Prometheus, Portia AI, Public Lab, if-me, Wikimedia.
   Google Summer of Code mentor.

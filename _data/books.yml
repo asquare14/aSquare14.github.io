@@ -1,31 +1,85 @@
-# Spines on the Library shelf, left to right.
-# height: 160–215 looks best. width: normal or wide. lean: true tilts the last book.
-# Remove `placeholder: true` (here and in the section note) once these are real titles.
+# The Library shelf on the home page, left to right.
+# Clicking a spine opens its cover (images in assets/images/books/).
+#   spine / ink: spine colour and title colour, picked to match the cover
+#   height: spine height in px (220–250 looks best; long titles need the taller end)
+#   width: wide makes a thicker spine. lean: true tilts a book. reading: true adds a bookmark ribbon.
 
-placeholder: true
+currently_reading: The Selfish Gene
 goodreads: https://www.goodreads.com/user/show/74108752-atibhi-agrawal
 shelf:
-  - title: Book title
-    color: "#f1d6dc"
-    height: 190
-  - title: Book title
-    color: "#dfe6dd"
-    height: 210
+  - title: Chatter
+    author: Ethan Kross
+    cover: chatter.jpg
+    cover_size: [332, 500]
+    spine: "#f7f5ef"
+    ink: "#1c1a1a"
+    accent: "#3b82c4"
+    height: 222
+  - title: The Trading Game
+    author: Gary Stevenson
+    cover: the-trading-game.jpg
+    cover_size: [260, 400]
+    spine: "#ecebe6"
+    ink: "#141414"
+    height: 238
     width: wide
-  - title: Book title
-    color: "#efe4d4"
-    height: 170
-  - title: Book title
-    color: "#dbe3ec"
-    height: 200
-  - title: Book title
-    color: "#ead9e8"
-    height: 180
+  - title: Addicted to Anxiety
+    author: Owen O’Kane
+    cover: addicted-to-anxiety.jpg
+    cover_size: [310, 500]
+    spine: "#f6f4ee"
+    ink: "#3f8a3b"
+    height: 246
+  - title: Humble Pi
+    author: Matt Parker
+    cover: humble-pi.jpg
+    cover_size: [333, 500]
+    spine: "#f5efe2"
+    ink: "#d6362a"
+    height: 226
+  - title: An Education
+    author: Lynn Barber
+    cover: an-education.jpg
+    cover_size: [353, 500]
+    spine: "#24262c"
+    ink: "#ffffff"
+    height: 232
+  - title: This Is Going to Hurt
+    author: Adam Kay
+    cover: this-is-going-to-hurt.jpg
+    cover_size: [325, 500]
+    spine: "#2f8f86"
+    ink: "#ffffff"
+    height: 250
     width: wide
-  - title: Book title
-    color: "#f3eadf"
-    height: 205
-  - title: Book title
-    color: "#e7cfd4"
-    height: 185
+  - title: Project Hail Mary
+    author: Andy Weir
+    cover: project-hail-mary.jpg
+    cover_size: [325, 500]
+    spine: "#131313"
+    ink: "#ffffff"
+    accent: "#e0342b"
+    height: 244
+  - title: Algorithms to Live By
+    author: Brian Christian
+    cover: algorithms-to-live-by.jpg
+    cover_size: [326, 500]
+    spine: "#dfe4e3"
+    ink: "#3d4f58"
+    height: 250
+  - title: The Selfish Gene
+    author: Richard Dawkins
+    cover: the-selfish-gene.jpg
+    cover_size: [325, 500]
+    spine: "#f1eee6"
+    ink: "#b5302a"
+    height: 240
+    reading: true
+  - title: The Midnight Library
+    author: Matt Haig
+    cover: the-midnight-library.jpg
+    cover_size: [331, 500]
+    spine: "#1d2a4a"
+    ink: "#e8c46a"
+    height: 244
     lean: true
