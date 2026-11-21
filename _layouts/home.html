@@ -76,9 +76,7 @@ layout: default
         </button>
         <div popover id="{{ bid }}" class="cover-pop">
           <img src="{{ '/assets/images/books/' | append: b.cover | relative_url }}" alt="Cover of {{ b.title }} by {{ b.author }}" width="{{ b.cover_size[0] }}" height="{{ b.cover_size[1] }}" loading="lazy">
-          <p class="cp-title">{{ b.title }}</p>
-          <p class="cp-author">{{ b.author }}{% if b.reading %} · <span class="cp-now">currently reading</span>{% endif %}</p>
-          <button type="button" class="cp-close" popovertarget="{{ bid }}" popovertargetaction="hide" aria-label="Close">×</button>
+          <button type="button" class="cp-close" popovertarget="{{ bid }}" popovertargetaction="hide" aria-label="Close"><svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
         </div>
       </li>
       {%- endfor %}
