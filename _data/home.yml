@@ -5,16 +5,18 @@ eyebrow: Software engineer · London
 heading: "Hi, I’m Atibhi.<br>I build things <em>for people.</em>"
 # Markdown is allowed here: **bold**, [links](https://...)
 lede: >-
-  I work on the Ads Engine at **ElevenLabs**. Before that I built Gen AI platforms
-  at **Amazon Ads**, worked on **Prime Video** checkouts, and on identity & access
-  at **Twitter**. I like agents, distributed systems, open source, good books and
-  paint on my hands.
+  I work on [Ads Engine](https://elevenlabs.io/app/ads/creatives) at **ElevenLabs**.
+  Before that I built Gen AI platforms at
+  **[Amazon Ads](https://advertising.amazon.com/library/guides/dco-dynamic-creative-optimization#5C)**,
+  worked on **[Prime Video](https://www.primevideo.com)** checkouts, and on identity
+  & access at **[X](https://x.com)**. I like agents, distributed systems, open source,
+  good books and paint on my hands.
 
 # The little pills under the intro. Leave `placeholder: true` until it's real.
 now:
   - emoji: "💻"
     label: Building
-    text: the Ads Engine
+    text: Ads Engine
   - emoji: "📖"
     label: Reading
     text: book title
