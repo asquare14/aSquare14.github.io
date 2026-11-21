@@ -1,0 +1,23 @@
+# Images live in assets/images/art/. Keep them under ~500 KB each.
+# width/height are the image's pixel size; they stop the page jumping while it loads.
+
+- file: lake-at-dusk.jpg
+  caption: Lake at dusk
+  alt: Painting of a mountain lake at dusk, framed by leaves and reeds
+  width: 1272
+  height: 1400
+- file: garden.jpg
+  caption: Garden, painted in a book
+  alt: Painting of a woman in a straw hat reaching into a wall of red flowers, inside an open book
+  width: 768
+  height: 768
+- file: puppies-sketch.jpg
+  caption: Puppies, pencil
+  alt: Pencil sketch of three puppies by a wooden wagon
+  width: 1080
+  height: 813
+- file: birds-and-lighthouses.jpg
+  caption: Birds & lighthouses
+  alt: Four framed paintings of a hummingbird, two lighthouses and a kingfisher
+  width: 1182
+  height: 1400

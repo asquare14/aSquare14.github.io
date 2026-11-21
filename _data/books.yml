@@ -1,0 +1,31 @@
+# Spines on the Library shelf, left to right.
+# height: 160–215 looks best. width: normal or wide. lean: true tilts the last book.
+# Remove `placeholder: true` (here and in the section note) once these are real titles.
+
+placeholder: true
+goodreads: https://www.goodreads.com/user/show/74108752-atibhi-agrawal
+shelf:
+  - title: Book title
+    color: "#f1d6dc"
+    height: 190
+  - title: Book title
+    color: "#dfe6dd"
+    height: 210
+    width: wide
+  - title: Book title
+    color: "#efe4d4"
+    height: 170
+  - title: Book title
+    color: "#dbe3ec"
+    height: 200
+  - title: Book title
+    color: "#ead9e8"
+    height: 180
+    width: wide
+  - title: Book title
+    color: "#f3eadf"
+    height: 205
+  - title: Book title
+    color: "#e7cfd4"
+    height: 185
+    lean: true

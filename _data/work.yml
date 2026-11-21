@@ -1,0 +1,15 @@
+- name: ElevenLabs
+  tag: Now
+  detail: Software Engineer, Ads Engine
+- name: Amazon
+  tag: Ads · Prime Video
+  detail: Gen AI platforms for Amazon Ads; Prime Video checkouts
+- name: Twitter
+  tag: IAM
+  detail: Identity & access management
+- name: Internships
+  tag: 2018–2021
+  detail: Morgan Stanley, Grafana, Google, HackerRank, Rails Girls Summer of Code
+- name: IIIT Bangalore
+  tag: Education
+  detail: Dual degree, Bachelor’s + Master’s

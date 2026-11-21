@@ -1,29 +1,13 @@
 ---
-# blog page must be named index.html and in its own folder to support pagination
-# https://jekyllrb.com/docs/pagination/
 layout: page
-title: Blog
+title: Archive
+description: Posts from 2018–2020. New writing lives on Substack.
 ---
-<section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.paginate %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-
-		{% include pagination.html%}
-	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-</section>
+<p><a class="btn" href="https://{{ site.substack }}.substack.com">Read on Substack ↗</a></p>
+<ul class="rows simple archive">
+  {%- for post in site.posts %}
+  {%- unless post.hidden %}
+  <li><a class="t" href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="r">{{ post.date | date: "%Y" }}</span></li>
+  {%- endunless %}
+  {%- endfor %}
+</ul>

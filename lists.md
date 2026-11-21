@@ -3,7 +3,6 @@ title: Lists
 layout: page
 ---
 
-# Random Lists
 *Last Updated: 19 August 2021*
 
 Welcome to my "lists" page. Ever since I can remember, I have loved making lists. On this page, I'd like to make some of my lists public. There will be lists of articles I love, beauty products I swear by, books I love etc which will keep growing with time. Please note that this page is not supposed to be me preaching or recommending a bunch of products, it is simply documenting things I love.

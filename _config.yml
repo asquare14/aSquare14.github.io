@@ -1,108 +1,58 @@
-# main text of home
+# Site settings. Home page content lives in _data/ (home.yml, work.yml,
+# projects.yml, art.yml, books.yml).
+
+title: Atibhi Agrawal
 name: Atibhi Agrawal
-
-bio: Software Engineer at ElevenLabs
-
-# twitter summary info
-description: My corner on the World Wide Web
-
-# if it's an external image, update below for true
-# better with square images
-external-image: false
+description: Software engineer at ElevenLabs in London. Agents, distributed systems, open source, books and painting.
+url: https://asquare14.github.io
+baseurl: ""
 picture: assets/images/image.png
-
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-local: false
-#resume-url: atibhi.pdf
-
-url: http://aSquare14.github.io
-# your url: http://USERNAME.github.io
+logo: /assets/images/image.png
+lang: en_GB
 
 permalink: /:title/
+timezone: Europe/London
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  #shortname: mydisqus # enter this from your disqus account
-  #categories: [blog, project] # only show disqus for posts that have these categories
-
-# if you don't have any of social below, comment the line
-# facebook: /profile.php?id=100001061927041
-twitter: /atibhi_a
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-linkedin: atibhi-agrawal-267525149/
-# youtube: myyoutube
-# spotify: myspotify
-github: aSquare14
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: Atibhi-Agrawal
-# reddit: username
-substack: atibhi
-# vimeo: myvimeo
-# lanyrd: mylanyrd
+# Social handles (used in the footer and for SEO tags)
 email: atibhi.a@gmail.com
+github: aSquare14
+linkedin: atibhi-agrawal-267525149/
+substack: atibhi
+instagram: artbyatibhi
+twitter:
+  username: atibhi_a
+author:
+  name: Atibhi Agrawal
+  twitter: atibhi_a
+social:
+  name: Atibhi Agrawal
+  links:
+    - https://github.com/aSquare14
+    - https://www.linkedin.com/in/atibhi-agrawal-267525149/
+    - https://twitter.com/atibhi_a
+    - https://www.instagram.com/artbyatibhi
 
-authors:
-    atibhi:
-        name: Atibhi Agrawal
-        #bio: 
-        external-image: false
-        picture: assets/images/image.png
-        twitter: /atibhi_a
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-projects: true
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
-talks: true
-lists: false
-tce: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-gist
   - jemoji
   - jekyll-admin
 
-jekyll-mentions:
-    base_url: https://github.com
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - CLAUDE.md
+  - vendor
+  - node_modules
+  - .bundle
+  - .scratchpad

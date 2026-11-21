@@ -1,16 +1,18 @@
 ---
-layout: page
-title: Projects
+layout: null
+permalink: /projects/
+sitemap: false
 ---
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Projects · {{ site.name }}</title>
+  <link rel="canonical" href="{{ '/#projects' | absolute_url }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ '/#projects' | relative_url }}">
+</head>
+<body>
+  <p>Projects now live on the <a href="{{ '/#projects' | relative_url }}">home page</a>.</p>
+</body>
+</html>
