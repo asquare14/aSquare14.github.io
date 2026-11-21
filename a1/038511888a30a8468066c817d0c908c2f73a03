@@ -1,0 +1,22 @@
+_layouts/home.html
+  s_257af71afcd357::t_c7c12c6e520b0a 79
+assets/css/main.css
+  s_257af71afcd357::t_7ce04ec4425c19 101-107,110-112,114,116-124,126-127,129-146,148-154,156,158-159,163-176,178-180,184-188,190-191
+  s_257af71afcd357::t_92834722809a4a 147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a1038511888a30a8468066c817d0c908c2f73a03",
+  "prompts": {},
+  "sessions": {
+    "s_257af71afcd357": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f5c10be2-d5ae-4d49-8794-16a179fd7728",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Atibhi <atibhi.a@gmail.com>"
+    }
+  }
+}
